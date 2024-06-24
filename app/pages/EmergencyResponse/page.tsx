@@ -21,9 +21,6 @@ const Emergency_Response = () => {
 
       <div>
         <Cards_Emergency />
-      </div>
-
-      <div>
         <Footer />
       </div>
 
