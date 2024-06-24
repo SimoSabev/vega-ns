@@ -81,7 +81,7 @@ const Cards_Emergency = () => {
           />
         </div>
       </div>
-      <div className=" bg-[#242323] w-screen h-36 mb-56 flex justify-center items-center">
+      <div className=" bg-[#242323] w-screen h-36  flex justify-center items-center">
         <p className=" text-slate-200 max-w-lg text-right">Safety and Compliance: We prioritize safety and ensure compliance with industry regulations to mitigate risks and protect personnel and assets.</p>
         <img src={secure.src} alt="" width="65vw" className=" ml-6 "/>
       </div>
