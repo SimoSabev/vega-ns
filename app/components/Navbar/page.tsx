@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="p-4 bg-transparent ml-16">
+    <div className="p-4 bg-transparent ml-10">
       <nav className="flex justify-between items-center">
         <div className="md:hidden">
           <button
