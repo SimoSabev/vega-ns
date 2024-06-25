@@ -51,10 +51,9 @@
               REFERENCES
             </h1>
             <p className="text-sm text-left max-w-96 text-[#333] flex justify-center items-center pt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              faucibus libero ut augue auctor efficitur. Cras ultricies tellus
-              est, id pellentesque purus eleifend vel. Nullam ac volutpat augue.
-              Nam porttitor volutpat purus, at elementum risus sodales non.
+            Selecting a trusted and reliable partner for your superyacht refit is crucial for ensuring high-quality work, compliance with regulations, and adherence to timelines and budgets.
+With a proven history of multiple successfully completed projects, we pride ourselves of our capability and reliability. 
+
             </p>
             <Link href="/pages/References">
               <button className="btn bg-[#333] text-slate-200 px-16 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
@@ -84,10 +83,7 @@
               EMERGENCY RESPONSE
             </h1>
             <p className="text-sm text-left max-w-96 text-[#f1f1f1] flex justify-center items-center pt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              faucibus libero ut augue auctor efficitur. Cras ultricies tellus
-              est, id pellentesque purus eleifend vel. Nullam ac volutpat augue.
-              Nam porttitor volutpat purus, at elementum risus sodales non.
+            We are committed to ensuring the safety, security, and environmental protection of your yacht also with our emergency response program and services. 
             </p>
             <Link href="/pages/EmergencyResponse">
             <button className="btn bg-[#f1f1f1] text-[#242323] px-16 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
@@ -103,10 +99,7 @@
               ABOUT US
             </h1>
             <p className="text-sm text-left max-w-96 text-[#333] flex justify-center items-center pt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              faucibus libero ut augue auctor efficitur. Cras ultricies tellus
-              est, id pellentesque purus eleifend vel. Nullam ac volutpat augue.
-              Nam porttitor volutpat purus, at elementum risus sodales non.
+            Our team is composed of highly qualified and experienced professionals with a solid technical and project management background acquired during the past +20 years. We have a proven record of managing and delivering complex refit projects for yachts along with commercial, passengers and service vessels.
             </p>
             <Link href="/pages/AboutUs">
             <button className="btn bg-[#333] text-slate-200 px-16 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
