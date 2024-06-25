@@ -97,7 +97,7 @@
           </div>
         </div>
 
-        <div className="bg-[#f1f1f1] w-full h-[55vh] flex">
+        <div  className="bg-[#f1f1f1] w-full h-[55vh] flex">
           <div className="flex flex-col justify-center items-start pl-36 w-1/2">
             <h1 className="text-5xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-6">
               ABOUT US
