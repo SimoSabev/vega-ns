@@ -24,11 +24,11 @@ const Service2 = () => {
       </div>
 
       <div className=" py-16 flex flex-col justify-center items-center">
-        <h1 className="  text-3xl pb-2 uppercase ">
+        <h1 className="  text-3xl pb-2 uppercase text-slate-200">
           TECHNICAL AND ENGINEERING SERVICES
         </h1>
         <div className=" w-[35vw] border-b-2 border-slate-200"></div>
-        <p className=" mt-16 text-justify max-w-xl">
+        <p className=" mt-16 text-justify max-w-xl text-slate-200">
           The technical services and expertise are essential for the successful
           execution of any yacht refit project. Each area requires specialized
           knowledge and experience to ensure that the refit meets the highest
@@ -39,96 +39,96 @@ const Service2 = () => {
 
         <div className=" flex justify-center items-start gap-36">
           <ul className=" mt-24 max-w-xl">
-            <li>
+            <li className=" text-slate-200">
               • Seasonal Maintenance & Post-Refit Support
               <ul className=" ml-10 mb-10">
                 &nbsp;
-                <li>o Warranty and Guarantee Services</li>
-                <li>o Sea Trials & Follow-up Inspections</li>
-                <li>o Regular Maintenance Programs</li>
+                <li className=" text-slate-200">o Warranty and Guarantee Services</li>
+                <li className=" text-slate-200">o Sea Trials & Follow-up Inspections</li>
+                <li className=" text-slate-200">o Regular Maintenance Programs</li>
               </ul>
             </li>
 
             <br />
 
-            <li>
+            <li className=" text-slate-200">
               • Structural Modification
               <ul className=" ml-10 mb-10">
                 &nbsp;
-                <li>o Hull Extensions and Modifications </li>
-                <li>o Structural Reinforcements </li>
-                <li>o Superstructure Modifications</li>
+                <li className=" text-slate-200">o Hull Extensions and Modifications </li>
+                <li className=" text-slate-200">o Structural Reinforcements </li>
+                <li className=" text-slate-200">o Superstructure Modifications</li>
               </ul>
             </li>
 
             <br />
 
-            <li>
+            <li className=" text-slate-200">
               • Mechanical and Electrical Upgrades
               <ul className=" ml-10 mb-10">
                 &nbsp;
-                <li>o Engine and Generator Overhauls</li>
-                <li>o HVAC System Upgrades</li>
-                <li>o Electrical System Rewiring and Upgrades</li>
-                <li>o Piping System Enhancements</li>
-                <li>
+                <li className=" text-slate-200">o Engine and Generator Overhauls</li>
+                <li className=" text-slate-200">o HVAC System Upgrades</li>
+                <li className=" text-slate-200">o Electrical System Rewiring and Upgrades</li>
+                <li className=" text-slate-200">o Piping System Enhancements</li>
+                <li className=" text-slate-200">
                   o Underwater & Auxiliary Machineries Overhauls & Upgrades
                 </li>
-                <li>o Advanced Navigation Systems and Electronics</li>
+                <li className=" text-slate-200">o Advanced Navigation Systems and Electronics</li>
               </ul>
             </li>
 
             <br />
 
-            <li>
+            <li className=" text-slate-200">
               • Exterior Renovation
               <ul className=" ml-10 mb-10">
                 &nbsp;
-                <li>o Teak Replacement and Repairs</li>
-                <li>o Paint and Coating Application</li>
-                <li>o Polishing and Brightwork</li>
-                <li>o Custom Metal Fabrication</li>
-                <li>o Underwater Hull Maintenance</li>
+                <li className=" text-slate-200">o Teak Replacement and Repairs</li>
+                <li className=" text-slate-200">o Paint and Coating Application</li>
+                <li className=" text-slate-200">o Polishing and Brightwork</li>
+                <li className=" text-slate-200">o Custom Metal Fabrication</li>
+                <li className=" text-slate-200">o Underwater Hull Maintenance</li>
               </ul>
             </li>
           </ul>
 
           <ul className=" mt-24 max-w-xl ">
-            <li>
+            <li className=" text-slate-200">
               • Interior Design Enhancement and Layout Changes
               <ul className=" ml-10 mb-10">
                 &nbsp;
-                <li>o High-end Carpentry and Joinery</li>
-                <li>o Soft Furnishings and Upholstery</li>
-                <li>o Lighting Design and Installation</li>
-                <li>o High-End Entertainment Systems</li>
+                <li className=" text-slate-200">o High-end Carpentry and Joinery</li>
+                <li className=" text-slate-200">o Soft Furnishings and Upholstery</li>
+                <li className=" text-slate-200">o Lighting Design and Installation</li>
+                <li className=" text-slate-200">o High-End Entertainment Systems</li>
               </ul>
             </li>
 
             <br />
 
-            <li>
+            <li className=" text-slate-200">
               • Technological Enhancements
               <ul className=" ml-10 mb-10">
                 &nbsp;
-                <li>o Integration of Smart Yacht Technology</li>
-                <li>o Advanced Security Systems</li>
-                <li>o High-speed Internet and Communication Systems</li>
-                <li>o Audio-Visual Systems</li>
+                <li className=" text-slate-200">o Integration of Smart Yacht Technology</li>
+                <li className=" text-slate-200">o Advanced Security Systems</li>
+                <li className=" text-slate-200">o High-speed Internet and Communication Systems</li>
+                <li className=" text-slate-200">o Audio-Visual Systems</li>
               </ul>
             </li>
 
             <br />
 
-            <li>
+            <li className=" text-slate-200">
               • Additions
               <ul className=" ml-10 mb-10">
                 &nbsp;
-                <li>o Pool and Spa Installation</li>
-                <li>o Custom Bars and Lounges</li>
-                <li>o Gym and Wellness Areas</li>
-                <li>o Entertainment Zones </li>
-                <li>o Outdoor Living Spaces and Furniture</li>
+                <li className=" text-slate-200">o Pool and Spa Installation</li>
+                <li className=" text-slate-200">o Custom Bars and Lounges</li>
+                <li className=" text-slate-200">o Gym and Wellness Areas</li>
+                <li className=" text-slate-200">o Entertainment Zones </li>
+                <li className=" text-slate-200">o Outdoor Living Spaces and Furniture</li>
               </ul>
             </li>
           </ul>

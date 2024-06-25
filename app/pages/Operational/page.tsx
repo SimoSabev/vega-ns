@@ -24,11 +24,11 @@ const Service1 = () => {
       </div>
 
       <div className=" py-16 flex flex-col justify-center items-center">
-        <h1 className="  text-3xl pb-2 uppercase ">
+        <h1 className="  text-3xl pb-2 uppercase text-slate-200">
           Organizational & Operational support
         </h1>
         <div className=" w-[35vw] border-b-2 border-slate-200"></div>
-        <p className=" mt-16 text-justify max-w-xl">
+        <p className=" mt-16 text-justify max-w-xl text-slate-200">
           The careful planning, effective communication br and a well-organized
           approach play a crucial role in ensuring that the refit process is
           well-managed, according to the Owner’s expectations and delivered on
@@ -37,50 +37,50 @@ const Service1 = () => {
 
         <div className=" flex justify-center items-start gap-36">
           <ul className=" mt-24 max-w-xl">
-            <li>
+            <li className=" text-slate-200">
               • Defining specifications, developing a comprehensive refit plan
               that outlines all aspects of the project, Owner’s preferences,
               along with detailed schedule, worklist, timeline and budget.
             </li>
             <br />
-            <li>
+            <li className=" text-slate-200">
               • Building the team of highly qualified professionals and
               maintaining open lines of communication with the project team.{" "}
             </li>
             <br />
-            <li>
+            <li className=" text-slate-200">
               • Documentation of refit activities, cost control, compliance
               documentation, manuals.
             </li>
             <br />
-            <li>
+            <li className=" text-slate-200">
               • Implementation of quality control measures at various stages and
               conduction of regular inspections to ensure work meets
               specifications.
             </li>
           </ul>
           <ul className=" mt-24 max-w-xl ">
-            <li>
+            <li className=" text-slate-200">
               • Monitoring the progress, quality assurance, overseeing the
               logistics and the supply chain, procurement of materials and
               equipment.
             </li>
             <br />
-            <li>
+            <li className=" text-slate-200">
               • Fostering direct communication and transparency, reporting,
               liaising effectively with all the parties involved, obtaining
               rapid responses, involving, and providing regular progress updates
               to the Owner’s team.
             </li>
             <br />
-            <li>
+            <li className=" text-slate-200">
               • Meticulous consistency planning and execution of every activity,
               allowing to better anticipate any possible deviation and implement
               immediate corrective actions to reach the deadline.
             </li>
           </ul>
         </div>
-        <p className=" mt-20 text-justify max-w-xl">
+        <p className=" mt-20 text-justify max-w-xl text-slate-200">
           Regular communication, attention to detail, and adaptability to
           changing circumstances are key factors in effective planning and
           organization.
