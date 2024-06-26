@@ -23,7 +23,7 @@ const Service1 = () => {
         {" "}
       </div>
 
-      <div className=" py-16 flex flex-col justify-center items-center">
+      <div className=" py-16 flex flex-col justify-center items-center text-justify">
         <h1 className="  text-3xl pb-2 uppercase text-slate-200">
           Organizational & Operational support
         </h1>

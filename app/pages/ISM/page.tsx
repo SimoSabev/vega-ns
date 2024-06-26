@@ -23,11 +23,11 @@ const Service4 = () => {
         {" "}
       </div>
 
-      <div className=" py-16 flex flex-col justify-center items-center">
+      <div className=" py-16 flex flex-col justify-center items-center text-justify">
         <h1 className="  text-3xl pb-2 uppercase text-slate-200 ">
           ISM Support & Maintenance Database Implementation
         </h1>
-        <div className=" w-[58vw] border-b-2 border-slate-200"></div>
+        <div className=" w-[45vw] border-b-2 border-slate-200"></div>
         <p className=" mt-16 text-justify max-w-xl text-slate-200">
           ISM (International Safety Management) support services for yachts are
           crucial for ensuring safety, environmental protection, and operational
