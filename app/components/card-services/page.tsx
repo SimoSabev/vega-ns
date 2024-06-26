@@ -9,7 +9,7 @@
     return (
       <div
         data-theme="light"
-        className="flex flex-col justify-center items-center overflow-x-hidden"
+        className="flex flex-col justify-center items-center overflow-x-hidden text-justify"
       >
         <div className="bg-[#242323] w-full h-[55vh] flex">
           <div className="flex justify-center items-center w-1/2">
@@ -20,7 +20,7 @@
             />
           </div>
           <div className="flex flex-col justify-center items-start pl-40 mr-10 w-1/2">
-            <h1 className="text-5xl text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-6">
+            <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-3">
               SERVICES
             </h1>
             <p className="text-sm text-justify text-[#f1f1f1] flex justify-center items-center pt-6">
@@ -47,7 +47,7 @@
 
         <div className="bg-[#f1f1f1] w-full h-[55vh]  flex">
           <div className="flex flex-col justify-center items-start pl-36 w-1/2">
-            <h1 className="text-5xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-6">
+            <h1 className="text-4xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-3">
               REFERENCES
             </h1>
             <p className="text-sm text-left max-w-96 text-[#333] flex justify-center items-center pt-6">
@@ -79,7 +79,7 @@ With a proven history of multiple successfully completed projects, we pride ours
             />
           </div>
           <div className="flex flex-col justify-center items-start pl-36 mr-10 w-1/2">
-            <h1 className="text-[2.5rem] text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-6">
+            <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-3">
               EMERGENCY RESPONSE
             </h1>
             <p className="text-sm text-left max-w-96 text-[#f1f1f1] flex justify-center items-center pt-6">
@@ -95,7 +95,7 @@ With a proven history of multiple successfully completed projects, we pride ours
 
         <div  className="bg-[#f1f1f1] w-full h-[55vh] flex">
           <div className="flex flex-col justify-center items-start pl-36 w-1/2">
-            <h1 className="text-5xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-6">
+            <h1 className="text-4xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-3">
               ABOUT US
             </h1>
             <p className="text-sm text-left max-w-96 text-[#333] flex justify-center items-center pt-6">
