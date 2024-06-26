@@ -41,35 +41,55 @@ const Service4 = () => {
             <li className=" font-bold text-slate-200">
               • ISM Support
               <ul className="mt-3">
-                <li className=" text-slate-200">&nbsp;&nbsp;&nbsp; o ISM implementation: </li>
+                <li className=" text-slate-200">
+                  &nbsp;&nbsp;&nbsp; o ISM implementation:{" "}
+                </li>
               </ul>
-              <p className=" font-normal text-slate-200">
-                <br /> &nbsp;&nbsp;&nbsp;1. Initial Assessment: Identifying gaps
-                between current practices and ISM &nbsp;&nbsp;&nbsp;Code
-                requirements.
-                <br /> &nbsp;&nbsp;&nbsp;2. Develop and Document SMS: Creation
-                of the SMS documentation, &nbsp;&nbsp;&nbsp;including the Safety
-                Management Manual.
-                <br /> &nbsp;&nbsp;&nbsp;3. Training and Awareness: Training
-                crew and shore-based personnel on &nbsp;&nbsp;&nbsp;the ISM Code
-                requirements and the SMS.
-                <br /> &nbsp;&nbsp;&nbsp;4. Implement Procedures: Putting the
-                SMS into practice on board ships &nbsp;&nbsp;&nbsp;and within
-                the company.
-              </p>
+              <p className=" font-normal text-slate-200"></p>
+              <ul className=" list-square">
+                <br />
+                <li className=" text-justify ml-12 text-slate-200">
+                   Initial Assessment: Identifying gaps
+                  between current practices and ISM Code
+                  requirements.
+                </li>
+                <br />
+                <li className=" text-justify ml-12 text-slate-200">
+                   Develop and Document SMS: Creation of the
+                  SMS documentation,including the Safety
+                  Management Manual.
+                </li>
+                <br />
+                <li className=" text-justify ml-12 text-slate-200">
+                  Training and Awareness: Training crew and
+                  shore-based personnel onthe ISM Code
+                  requirements and the SMS.
+                </li>
+                <br />
+                <li className=" text-justify ml-12 text-slate-200">
+                  Implement Procedures: Putting the SMS into
+                  practice on board ships and within the
+                  company.
+                </li>{" "}
+                <br />
+              </ul>
             </li>
             <br />
             <li className=" font-bold text-slate-200">
               • ISM audits We can assist with mandatory audits:
-              <p className=" font-normal text-slate-200">
-                <br /> • Internal Audits: Conducting internal audits to verify
-                compliance and effectiveness.
-                <br /> • Corrective Actions: Addressing non-conformities and
-                areas for improvement identified during audits.
-                <br /> • External Audit and Certification: Undergoing external
+                <ul className=" list-square">
+                  <li className="text-justify ml-12 text-slate-200">Internal Audits: Conducting internal audits to verify
+                  compliance and effectiveness.</li>
+                  <li className="text-justify ml-12 text-slate-200">Corrective Actions: Addressing non-conformities and
+                  areas for improvement identified during audits.</li>
+                  <li className="text-justify ml-12 text-slate-200">External Audit and Certification: Undergoing external
                 audits by the flag state or recognized organization to obtain
-                DOC and SMC.
-              </p>
+                DOC and SMC.</li>
+                </ul>
+                  
+                  
+                  
+              
             </li>
             <br />
             <li className=" font-bold text-slate-200">
@@ -81,7 +101,7 @@ const Service4 = () => {
             <li className=" font-bold text-slate-200">
               • Safety and Risk Management
               <p className=" font-normal text-slate-200">
-                - Consistent Safety Practices and Emergency Preparedness
+                Consistent Safety Practices and Emergency Preparedness
               </p>
             </li>
           </ul>
@@ -89,21 +109,23 @@ const Service4 = () => {
             <li className=" font-bold text-slate-200">
               • Operational Efficiency, Setup Books & Crew Training
               <p className=" font-normal text-slate-200">
-                - Streamlined Operations - leading to smoother workflows and
-                more efficient use of time and resources, consistency
+                Streamlined Operations - leading to smoother workflows and more
+                efficient use of time and resources, consistency
               </p>
             </li>
             <br />
             <li className=" font-bold text-slate-200">
               • Regulatory Compliance
               <p className=" font-normal text-slate-200">
-                - Ensuring compliance with international maritime regulations,
+                Ensuring compliance with international maritime regulations,
                 such as those outlined in the International Safety Management
                 (ISM) Code.
               </p>
             </li>
             <br />
-            <li className=" font-bold text-slate-200">• Certification and Inspection</li>
+            <li className=" font-bold text-slate-200">
+              • Certification and Inspection
+            </li>
             <br />
             <li className=" font-bold text-slate-200">
               • Quality control and continuous improvement
@@ -121,12 +143,14 @@ const Service4 = () => {
               </p>
             </li>
             <br />
-            <li className=" font-bold text-slate-200">• Certification and Inspection</li>
+            <li className=" font-bold text-slate-200">
+              • Certification and Inspection
+            </li>
             <br />
             <li className=" font-bold text-slate-200">
               • Maintenance Database Implementation
               <p className=" font-normal text-slate-200">
-                - Implementing a Planned Maintenance System (PMS) on boats is
+                Implementing a Planned Maintenance System (PMS) on boats is
                 essential for ensuring the proper and smooth operation of the
                 vessel. It helps schedule, track, and document maintenance
                 tasks, ensuring compliance with regulatory requirements fand
