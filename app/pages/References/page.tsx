@@ -7,7 +7,7 @@ import Footer from "@/app/components/footer/page";
 const References = () => {
   return (
     <div data-theme="light">
-      <div className="relative h-96">
+      <div className="relative h-[70vh]">
         <div
           className="absolute inset-0 flex flex-col justify-center items-center bg-center bg-cover"
           style={{
@@ -18,17 +18,18 @@ const References = () => {
           <div className="w-full absolute top-0">
             <Navbar />
           </div>
+          <div className="max-w-3xl  mx-auto">
+            <p className=" text-xl text-justify text-slate-200 p-10 rounded-3xl">
+              Selecting a trusted and reliable partner for your superyacht refit
+              is crucial for ensuring high-quality work, compliance with
+              regulations, and adherence to timelines and budgets. With a proven
+              history of multiple successfully completed projects, we pride
+              ourselves of our capability and reliability.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="max-w-3xl mx-auto">
-        <p className="my-32 text-center text-xl bg-[#242323] text-slate-200 p-10 rounded-3xl">
-          Selecting a trusted and reliable partner for your superyacht refit is
-          crucial for ensuring high-quality work, compliance with regulations,
-          and adherence to timelines and budgets. With a proven history of
-          multiple successfully completed projects, we pride ourselves of our
-          capability and reliability.
-        </p>
-      </div>
+
       <div>
         <Cards_Services1 />
       </div>

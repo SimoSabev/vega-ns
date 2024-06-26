@@ -23,11 +23,11 @@ const Service2 = () => {
         {" "}
       </div>
 
-      <div className=" py-16 flex flex-col justify-center items-center">
+      <div className=" py-16 flex flex-col justify-center items-center text-justify">
         <h1 className="  text-3xl pb-2 uppercase text-slate-200">
           TECHNICAL AND ENGINEERING SERVICES
         </h1>
-        <div className=" w-[35vw] border-b-2 border-slate-200"></div>
+        <div className=" w-[30vw] border-b-2 border-slate-200"></div>
         <p className=" mt-16 text-justify max-w-xl text-slate-200">
           The technical services and expertise are essential for the successful
           execution of any yacht refit project. Each area requires specialized

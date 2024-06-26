@@ -23,11 +23,11 @@ const Service4 = () => {
         {" "}
       </div>
 
-      <div className=" py-16 flex flex-col justify-center items-center">
-        <h1 className="  text-3xl pb-2 uppercase ">
+      <div className=" py-16 flex flex-col justify-center items-center text-justify">
+        <h1 className="  text-3xl pb-2 uppercase text-slate-200">
           Financial & Legal Support
         </h1>
-        <div className=" w-[35vw] border-b-2 border-slate-200"></div>
+        <div className=" w-[20vw] border-b-2 border-slate-200"></div>
         <p className=" mt-16 text-justify max-w-xl text-slate-200">Providng financial and legal services for yachts involves a range of specialized offerings tailored to the unique needs of yacht owners and operators. These essential services ensure that the yacht is not only legally compliant but also financially optimized.</p>
 
         <div className=" flex justify-center items-start gap-36">
