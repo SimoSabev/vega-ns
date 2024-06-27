@@ -11,7 +11,7 @@
         data-theme="light"
         className="flex flex-col justify-center items-center overflow-x-hidden text-justify"
       >
-        <div className="bg-[#242323] w-full h-[55vh] flex">
+        <div className="bg-[#242323] w-full h-[55vh] flex ">
           <div className="flex justify-center items-center w-1/2">
             <img
               src={services.src}
@@ -19,22 +19,22 @@
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center items-start pl-40 mr-10 w-1/2">
+          <div className="flex flex-col justify-center items-center mr-10 w-1/2 text-center">
             <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-3">
               SERVICES
             </h1>
-            <p className="text-sm text-justify text-[#f1f1f1] flex justify-center items-center pt-6">
-              Our serivces are specifically tailored to meet the unique needs and
-              desires of each owner, enchansing the vessel’s aestetics,
-              functionality and vlaue. Our ability to integrate the latest
+            <p className="text-sm text-justify max-w-xl text-[#f1f1f1] pt-6">
+              Our services are specifically tailored to meet the unique needs and
+              desires of each owner, enhancing the vessel’s aesthetics,
+              functionality and value. Our ability to integrate the latest
               technology and design trends along with the highest level of
-              craftmenship and attention to details, ensures your yacht is at the
+              craftsmanship and attention to details, ensures your yacht is at the
               forefront of maritime excellence. The adaptability for complete
               intervention or only partial involvement along with our ability to
               attend on a short notice allows us to offer more flexibility. As an
               independent entity, we build full spectrum solutions with selected
               skilled professionals and trusted industry partners. Our team is
-              comitted to deliver your project on time, on budget and according to
+              committed to deliver your project on time, on budget and according to
               your expectations.
             </p>
             <Link href="/pages/Services">
@@ -43,17 +43,16 @@
               </button>
             </Link>
           </div>
-        </div>
+        </div>   
 
-        <div className="bg-[#f1f1f1] w-full h-[55vh]  flex">
-          <div className="flex flex-col justify-center items-start pl-36 w-1/2">
-            <h1 className="text-4xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-3">
+        <div className="bg-[#f1f1f1] w-full h-[55vh] flex">
+          <div className="flex flex-col justify-center items-center  mr-10 w-[83.2vh] text-center">
+            <h1 className="text-4xl text-[#333]  font-bold border-b-[2.7px] border-[#333] pb-4 px-3">
               REFERENCES
             </h1>
-            <p className="text-sm text-left max-w-96 text-[#333] flex justify-center items-center pt-6">
-            Selecting a trusted and reliable partner for your superyacht refit is crucial for ensuring high-quality work, compliance with regulations, and adherence to timelines and budgets.
-With a proven history of multiple successfully completed projects, we pride ourselves of our capability and reliability. 
-
+            <p className="text-sm max-w-96 text-justify text-[#333] pt-6">
+              Selecting a trusted and reliable partner for your superyacht refit is crucial for ensuring high-quality work, compliance with regulations, and adherence to timelines and budgets.
+              With a proven history of multiple successfully completed projects, we pride ourselves of our capability and reliability. 
             </p>
             <Link href="/pages/References">
               <button className="btn bg-[#333] text-slate-200 px-16 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
@@ -61,7 +60,7 @@ With a proven history of multiple successfully completed projects, we pride ours
               </button>
             </Link>
           </div>
-          <div className="flex justify-center items-center  w-[52.6vw]">
+          <div className="flex justify-center items-center w-1/2">
             <img
               src={references.src}
               alt="references"
@@ -74,43 +73,43 @@ With a proven history of multiple successfully completed projects, we pride ours
           <div className="flex justify-center items-center w-1/2">
             <img
               src={emergency_response.src}
-              alt="service"
+              alt="emergency response"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="flex flex-col justify-center items-start pl-36 mr-10 w-1/2">
+          <div className="flex flex-col justify-center items-center mr-10 w-1/2 text-center">
             <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-3">
               EMERGENCY RESPONSE
             </h1>
-            <p className="text-sm text-left max-w-96 text-[#f1f1f1] flex justify-center items-center pt-6">
-            We are committed to ensuring the safety, security, and environmental protection of your yacht also with our emergency response program and services. 
+            <p className="text-sm text-justify max-w-lg text-[#f1f1f1] pt-6">
+            We are committed to ensuring the safety, security, and environmental protection of your Yacht also with our emergency response program and services. These services provide crucial support in various emergency scenarios, helping to protect lives, vessels, and the marine environment. 
             </p>
             <Link href="/pages/EmergencyResponse">
-            <button className="btn bg-[#f1f1f1] text-[#242323] px-16 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
-              More
-            </button>
+              <button className="btn bg-[#f1f1f1] text-[#242323] px-16 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
+                More
+              </button>
             </Link>
           </div>
         </div>
 
-        <div  className="bg-[#f1f1f1] w-full h-[55vh] flex">
-          <div className="flex flex-col justify-center items-start pl-36 w-1/2">
+        <div className="bg-[#f1f1f1] w-full h-[55vh] flex">
+          <div className="flex flex-col justify-center items-center mr-10 w-[83.2vh] text-center">
             <h1 className="text-4xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-3">
               ABOUT US
             </h1>
-            <p className="text-sm text-left max-w-96 text-[#333] flex justify-center items-center pt-6">
-            Our team is composed of highly qualified and experienced professionals with a solid technical and project management background acquired during the past +20 years. We have a proven record of managing and delivering complex refit projects for yachts along with commercial, passengers and service vessels.
+            <p className="text-sm text-justify max-w-md text-[#333] pt-6">
+              Our team is composed of highly qualified and experienced professionals with a solid technical and project management background acquired during the past +20 years. We have a proven record of managing and delivering complex refit projects for yachts along with commercial, passengers and service vessels.
             </p>
             <Link href="/pages/AboutUs">
-            <button className="btn bg-[#333] text-slate-200 px-16 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
-              More
-            </button>
+              <button className="btn bg-[#333] text-slate-200 px-16 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
+                More
+              </button>
             </Link>
           </div>
-          <div className="flex justify-center items-center  w-[52.6vw]">
+          <div className="flex justify-center items-center w-1/2">
             <img
               src={about_us.src}
-              alt="about"
+              alt="about us"
               className="w-full h-full object-cover"
             />
           </div>

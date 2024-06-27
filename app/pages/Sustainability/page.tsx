@@ -24,10 +24,9 @@ const Service3 = () => {
       </div>
 
       <div className=" py-16 flex flex-col justify-center items-center text-justify">
-        <h1 className="  text-3xl pb-2 uppercase text-slate-200">
+        <h1 className="  text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200">
           Regulatory Compliance & Sustainability Upgrades
         </h1>
-        <div className=" w-[45vw] border-b-2 border-slate-200"></div>
         <p className=" mt-16 text-justify max-w-xl text-slate-200">
           Ensuring a yacht meets all regulatory requirements and incorporates
           sustainability practices is crucial for its operation and
@@ -45,7 +44,9 @@ const Service3 = () => {
             <br />
             <li className=" text-slate-200">• Class Society Approvals</li>
             <br />
-            <li className=" text-slate-200">• Flag State Inspections and Certifications</li>
+            <li className=" text-slate-200">
+              • Flag State Inspections and Certifications
+            </li>
             <br />
             <li className=" text-slate-200">
               • Safety Equipment Servicing and Certification – Implementing
@@ -74,11 +75,9 @@ const Service3 = () => {
             </li>
             <br />
             <li className=" text-slate-200">
-               <br />
               <li className=" text-slate-200">
-                • Energy Efficiency – Upgrading to more efficient engines,
-                propulsion systems, and generators to reduce fuel consumption
-                and emissions
+                • Eco-friendly Materials and Practices – Including waste
+                management, emissions control, ballast water treatment
               </li>
             </li>
           </ul>

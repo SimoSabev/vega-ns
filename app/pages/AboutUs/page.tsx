@@ -17,10 +17,6 @@ const About_us = () => {
           <div className="w-full absolute top-0">
             <Navbar />
           </div>
-
-          <h1 className=" text-5xl uppercase text-slate-200 mt-16 font-black">
-            about us
-          </h1>
         </div>
       </div>
       <div className="max-w-4xl mx-auto">
