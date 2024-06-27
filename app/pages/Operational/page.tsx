@@ -24,10 +24,9 @@ const Service1 = () => {
       </div>
 
       <div className=" py-16 flex flex-col justify-center items-center text-justify">
-        <h1 className="  text-3xl pb-2 uppercase text-slate-200">
+        <h1 className="  text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200">
           Organizational & Operational support
         </h1>
-        <div className=" w-[35vw] border-b-2 border-slate-200"></div>
         <p className=" mt-16 text-justify max-w-xl text-slate-200">
           The careful planning, effective communication br and a well-organized
           approach play a crucial role in ensuring that the refit process is

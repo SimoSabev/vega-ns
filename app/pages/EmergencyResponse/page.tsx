@@ -6,16 +6,21 @@ import Footer from "@/app/components/footer/page";
 const Emergency_Response = () => {
   return (
     <div data-theme="light">
-      <div className="relative bg-[#242323] h-96">
+      <div className="relative bg-[#242323] h-[60vh]">
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-center bg-cover">
           {/* <h1 className=" text-3xl">Services</h1> */}
           <div className="w-full absolute top-0">
             <Navbar />
           </div>
-
-          <h1 className=" text-5xl uppercase text-slate-200 mt-16 font-black">
-            Emergency Response
-          </h1>
+          <div className="flex flex-col justify-center items-start pl-10 pr-10 h-1/4">
+            <p className="text-slate-200 max-w-xl text-justify text-xl">
+              We are committed to ensuring the safety, security, and
+              environmental protection of your Yacht also with our emergency
+              response program and services. These services provide crucial
+              support in various emergency scenarios, helping to protect lives,
+              vessels, and the marine environment.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -23,7 +28,6 @@ const Emergency_Response = () => {
         <Cards_Emergency />
         <Footer />
       </div>
-
     </div>
   );
 };
