@@ -20,7 +20,7 @@ const About_us = () => {
         </div>
       </div>
       <div className="max-w-4xl mx-auto">
-        <p className="my-32 text-justify text-xl p-10  rounded-3xl">
+        <p className="my-32 text-justify sm:text-lg md:text-xl p-10  rounded-3xl">
           Our team is composed of highly qualified and experienced professionals
           with a solid technical and project management background acquired
           during the past +20 years. We have a proven record of managing and

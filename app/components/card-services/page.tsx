@@ -1,121 +1,125 @@
-  import React from "react";
-  import Link from "next/link";
-  import services from "../../../public/Services1.jpg";
-  import references from "../../../public/References.jpg";
-  import emergency_response from "../../../public/Emergency-response.jpg";
-  import about_us from "../../../public/About-us.jpg";
+import React from "react";
+import Link from "next/link";
+import services from "../../../public/Services1.jpg";
+import references from "../../../public/References.jpg";
+import emergency_response from "../../../public/Emergency-response.jpg";
+import about_us from "../../../public/About-us.jpg";
 
-  const Cards_Services = () => {
-    return (
-      <div
-        data-theme="light"
-        className="flex flex-col justify-center items-center overflow-x-hidden text-justify"
-      >
-        <div className="bg-[#242323] w-full h-[55vh] flex ">
-          <div className="flex justify-center items-center w-1/2">
-            <img
-              src={services.src}
-              alt="service"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="flex flex-col justify-center items-center mr-10 w-1/2 text-center">
-            <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-3">
-              SERVICES
-            </h1>
-            <p className="text-sm text-justify max-w-xl text-[#f1f1f1] pt-6">
-              Our services are specifically tailored to meet the unique needs and
-              desires of each owner, enhancing the vessel’s aesthetics,
-              functionality and value. Our ability to integrate the latest
-              technology and design trends along with the highest level of
-              craftsmanship and attention to details, ensures your yacht is at the
-              forefront of maritime excellence. The adaptability for complete
-              intervention or only partial involvement along with our ability to
-              attend on a short notice allows us to offer more flexibility. As an
-              independent entity, we build full spectrum solutions with selected
-              skilled professionals and trusted industry partners. Our team is
-              committed to deliver your project on time, on budget and according to
-              your expectations.
-            </p>
-            <Link href="/pages/Services">
-              <button className="btn bg-[#f1f1f1] text-[#242323] px-16 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
-                More
-              </button>
-            </Link>
-          </div>
-        </div>   
-
-        <div className="bg-[#f1f1f1] w-full h-[55vh] flex">
-          <div className="flex flex-col justify-center items-center  mr-10 w-[83.2vh] text-center">
-            <h1 className="text-4xl text-[#333]  font-bold border-b-[2.7px] border-[#333] pb-4 px-3">
-              REFERENCES
-            </h1>
-            <p className="text-sm max-w-96 text-justify text-[#333] pt-6">
-              Selecting a trusted and reliable partner for your superyacht refit is crucial for ensuring high-quality work, compliance with regulations, and adherence to timelines and budgets.
-              With a proven history of multiple successfully completed projects, we pride ourselves of our capability and reliability. 
-            </p>
-            <Link href="/pages/References">
-              <button className="btn bg-[#333] text-slate-200 px-16 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
-                More
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center items-center w-1/2">
-            <img
-              src={references.src}
-              alt="references"
-              className="w-full h-full object-cover"
-            />
-          </div>
+const Cards_Services = () => {
+  return (
+    <div
+      data-theme="light"
+      className="flex flex-col items-center text-justify overflow-x-hidden"
+    >
+      {/* Services Section */}
+      <div className="bg-[#242323] w-full flex flex-col lg:flex-row h-auto lg:h-[55vh]  ">
+        <div className="flex justify-center items-center w-full lg:w-1/2">
+          <img
+            src={services.src}
+            alt="service"
+            className="w-full h-full object-cover"
+          />
         </div>
-
-        <div className="bg-[#242323] w-full h-[55vh] flex">
-          <div className="flex justify-center items-center w-1/2">
-            <img
-              src={emergency_response.src}
-              alt="emergency response"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="flex flex-col justify-center items-center mr-10 w-1/2 text-center">
-            <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-[2.7px] border-[#f1f1f1] pb-4 px-3">
-              EMERGENCY RESPONSE
-            </h1>
-            <p className="text-sm text-justify max-w-lg text-[#f1f1f1] pt-6">
-            We are committed to ensuring the safety, security, and environmental protection of your Yacht also with our emergency response program and services. These services provide crucial support in various emergency scenarios, helping to protect lives, vessels, and the marine environment. 
-            </p>
-            <Link href="/pages/EmergencyResponse">
-              <button className="btn bg-[#f1f1f1] text-[#242323] px-16 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
-                More
-              </button>
-            </Link>
-          </div>
-        </div>
-
-        <div className="bg-[#f1f1f1] w-full h-[55vh] flex">
-          <div className="flex flex-col justify-center items-center mr-10 w-[83.2vh] text-center">
-            <h1 className="text-4xl text-[#333] font-bold border-b-[2.7px] border-[#333] pb-4 px-3">
-              ABOUT US
-            </h1>
-            <p className="text-sm text-justify max-w-md text-[#333] pt-6">
-              Our team is composed of highly qualified and experienced professionals with a solid technical and project management background acquired during the past +20 years. We have a proven record of managing and delivering complex refit projects for yachts along with commercial, passengers and service vessels.
-            </p>
-            <Link href="/pages/AboutUs">
-              <button className="btn bg-[#333] text-slate-200 px-16 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
-                More
-              </button>
-            </Link>
-          </div>
-          <div className="flex justify-center items-center w-1/2">
-            <img
-              src={about_us.src}
-              alt="about us"
-              className="w-full h-full object-cover"
-            />
-          </div>
+        <div className="flex flex-col justify-center items-center p-6 lg:mr-10 lg:w-1/2 text-justify">
+          <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-2 border-[#f1f1f1] pb-4 px-3">
+            SERVICES
+          </h1>
+          <p className="text-sm max-w-xl text-[#f1f1f1] pt-6">
+            Our services are specifically tailored to meet the unique needs and
+            desires of each owner, enhancing the vessel’s aesthetics,
+            functionality and value. Our ability to integrate the latest
+            technology and design trends along with the highest level of
+            craftsmanship and attention to details, ensures your yacht is at the
+            forefront of maritime excellence. The adaptability for complete
+            intervention or only partial involvement along with our ability to
+            attend on a short notice allows us to offer more flexibility. As an
+            independent entity, we build full spectrum solutions with selected
+            skilled professionals and trusted industry partners. Our team is
+            committed to deliver your project on time, on budget and according to
+            your expectations.
+          </p>
+          <Link href="/pages/Services">
+            <button className="btn bg-[#f1f1f1] text-[#242323] px-16 py-2 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
+              More
+            </button>
+          </Link>
         </div>
       </div>
-    );
-  };
 
-  export default Cards_Services;
+      {/* References Section */}
+      <div className="bg-[#f1f1f1] w-full flex flex-col lg:flex-row h-auto lg:h-[55vh] ">
+        <div className="flex flex-col justify-center items-center p-6  lg:w-[48.25vw] text-justify">
+          <h1 className="text-4xl text-[#333] font-bold border-b-2 border-[#333] pb-4 px-3">
+            REFERENCES
+          </h1>
+          <p className="text-sm max-w-xl text-[#333] pt-6">
+            Selecting a trusted and reliable partner for your superyacht refit is crucial for ensuring high-quality work, compliance with regulations, and adherence to timelines and budgets.
+            With a proven history of multiple successfully completed projects, we pride ourselves of our capability and reliability. 
+          </p>
+          <Link href="/pages/References">
+            <button className="btn bg-[#333] text-slate-200 px-16 py-2 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
+              More
+            </button>
+          </Link>
+        </div>
+        <div className="flex justify-center items-center w-full lg:w-1/2">
+          <img
+            src={references.src}
+            alt="references"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+
+      {/* Emergency Response Section */}
+      <div className="bg-[#242323] w-full flex flex-col lg:flex-row h-auto lg:h-[55vh] ">
+        <div className="flex justify-center items-center w-full lg:w-1/2">
+          <img
+            src={emergency_response.src}
+            alt="emergency response"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="flex flex-col justify-center items-center p-6 lg:mr-10 lg:w-1/2 text-justify">
+          <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-2 border-[#f1f1f1] pb-4 px-3">
+            EMERGENCY RESPONSE
+          </h1>
+          <p className="text-sm max-w-xl text-[#f1f1f1] pt-6">
+            We are committed to ensuring the safety, security, and environmental protection of your Yacht also with our emergency response program and services. These services provide crucial support in various emergency scenarios, helping to protect lives, vessels, and the marine environment. 
+          </p>
+          <Link href="/pages/EmergencyResponse">
+            <button className="btn bg-[#f1f1f1] text-[#242323] px-16 py-2 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
+              More
+            </button>
+          </Link>
+        </div>
+      </div>
+
+      {/* About Us Section */}
+      <div className="bg-[#f1f1f1] w-full flex flex-col lg:flex-row h-auto lg:h-[55vh] ">
+        <div className="flex flex-col justify-center items-center p-6  lg:w-[48.25vw] text-justify  ">
+          <h1 className="text-4xl text-[#333] font-bold border-b-2 border-[#333] pb-4 px-3">
+            ABOUT US
+          </h1>
+          <p className="text-sm max-w-xl text-[#333] pt-6">
+            Our team is composed of highly qualified and experienced professionals with a solid technical and project management background acquired during the past +20 years. We have a proven record of managing and delivering complex refit projects for yachts along with commercial, passengers and service vessels.
+          </p>
+          <Link href="/pages/AboutUs">
+            <button className="btn bg-[#333] text-slate-200 px-16 py-2 rounded-full mt-8 uppercase hover:bg-[#4b4b4b]">
+              More
+            </button>
+          </Link>
+        </div>
+        <div className="flex justify-center items-center w-full lg:w-1/2">
+          <img
+            src={about_us.src}
+            alt="about us"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Cards_Services;
