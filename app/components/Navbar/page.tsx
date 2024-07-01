@@ -33,7 +33,7 @@ const Navbar = () => {
             {isOpen ? (
               <XIcon className="h-8 w-8" />
             ) : (
-              <MenuIcon className="h-8 w-8" />
+              <MenuIcon className="absolute h-8 w-8 left-8" />
             )}
           </button>
         </div>
@@ -124,7 +124,7 @@ const Navbar = () => {
       </nav>
       {isOpen && (
         <div className="md:hidden bg-[#1b1b1b] rounded-3xl flex flex-col flex-wrap justify-center items-center">
-          <div className="relative">
+          <div className="relative ">
             <button
               onClick={toggleServicesDropdown}
               className="min-w-full text-center text-gray-200 hover:text-gray-400 mt-2 py-2 flex items-center justify-center"
