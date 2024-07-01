@@ -20,7 +20,7 @@ const Main = () => {
         </div>
 
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="my-32 text-justify text-xl p-4 sm:p-10 rounded-3xl text-slate-200 bg-gray-900 bg-opacity-50">
+          <p className="my-32 text-justify text-xl p-4 sm:p-10 rounded-3xl text-slate-200 ">
             With over 20 years of experience and a passion for excellence, we
             bring solid knowledge and offer a wide range of solutions to enhance
             your yacht&apos;s performance, appearance, and functionality. We
