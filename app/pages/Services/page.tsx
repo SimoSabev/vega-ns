@@ -21,7 +21,7 @@ const Services = () => {
         </div>
       </div>
       <div className="max-w-3xl mx-auto">
-        <p className="my-32 text-center text-xl p-10 rounded-3xl">
+        <p className="my-32 text-xl p-10 rounded-3xl max-w-3xl text-justify">
           Our serivces are specifically tailored to meet the unique needs and
           desires of each owner, enchansing the vessel’s aestetics,
           functionality and vlaue. Our ability to integrate the latest
