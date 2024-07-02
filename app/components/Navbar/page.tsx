@@ -31,7 +31,7 @@ const Navbar = () => {
             className="text-gray-200 focus:outline-none"
           >
             {isOpen ? (
-              <XIcon className="h-8 w-8" />
+              <XIcon className=" absolute h-8 w-8 left-8" />
             ) : (
               <MenuIcon className="absolute h-8 w-8 left-8" />
             )}
