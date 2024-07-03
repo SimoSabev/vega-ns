@@ -35,10 +35,10 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="mt-96 mb-32">
+      <div className="">
         <Cards_Services />
       </div>
-      <div>
+      <div className="mt-16">
         <Footer />
       </div>
     </div>
