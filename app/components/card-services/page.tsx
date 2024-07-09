@@ -12,7 +12,7 @@ const Cards_Services = () => {
       className="flex flex-col items-center text-justify overflow-x-hidden"
     >
       {/* Services Section */}
-      <div className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row h-auto lg:h-[55vh]">
+      <div className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh]">
         <div className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2">
           <img
             src={services.src}
@@ -20,7 +20,7 @@ const Cards_Services = () => {
             className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center items-center p-6 lg:mr-10 md:w-1/2 lg:w-1/2 text-justify order-1 md:order-2 lg:order-2">
+        <div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2">
           <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-2 border-[#f1f1f1] pb-4 px-3">
             SERVICES
           </h1>
@@ -47,7 +47,7 @@ const Cards_Services = () => {
       </div>
 
       {/* References Section */}
-      <div className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row h-auto lg:h-[55vh]">
+      <div className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh]">
         <div className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2">
           <img
             src={references.src}
@@ -55,7 +55,7 @@ const Cards_Services = () => {
             className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center items-center p-6 lg:mr-10 md:w-1/2 lg:w-[45.8vw] text-justify order-2 md:order-1 lg:order-1">
+        <div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2 order-2 md:order-1 lg:order-1">
           <h1 className="text-4xl text-[#333] font-bold border-b-2 border-[#333] pb-4 px-3">
             REFERENCES
           </h1>
@@ -72,7 +72,7 @@ const Cards_Services = () => {
       </div>
 
       {/* Emergency Response Section */}
-      <div className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row h-auto lg:h-[55vh]">
+      <div className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh]">
         <div className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2">
           <img
             src={emergency_response.src}
@@ -80,7 +80,7 @@ const Cards_Services = () => {
             className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center items-center p-6 lg:mr-10 md:w-1/2 lg:w-1/2 text-justify">
+        <div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2">
           <h1 className="text-4xl text-[#f1f1f1] font-bold border-b-2 border-[#f1f1f1] pb-4 px-3">
             EMERGENCY RESPONSE
           </h1>
@@ -96,7 +96,7 @@ const Cards_Services = () => {
       </div>
 
       {/* About Us Section */}
-      <div className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row h-auto lg:h-[55vh]">
+      <div className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh] ">
         <div className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2">
           <img
             src={about_us.src}
@@ -104,7 +104,7 @@ const Cards_Services = () => {
             className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </div>
-        <div className="flex flex-col justify-center items-center p-6 lg:mr-10 md:w-1/2 lg:w-[45.8vw] text-justify order-2 md:order-1 lg:order-1">
+        <div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2 order-2 md:order-1 lg:order-1">
           <h1 className="text-4xl text-[#333] font-bold border-b-2 border-[#333] pb-4 px-3">
             ABOUT US
           </h1>
