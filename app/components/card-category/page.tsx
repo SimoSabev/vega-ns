@@ -93,7 +93,7 @@ const Cards_Services = () => {
             height={400}
           />
         </div>
-        <div className="flex flex-col justify-center items-center p-6 w-full lg:w-10/12 space-y-4">
+        <div className="flex flex-col justify-center items-center p-6 w-full sm:text-left lg:w-10/12 space-y-4">
           <h1 className="text-2xl lg:text-3xl lg: max-w-xl text-slate-200 font-bold border-b-2 border-slate-200 pb-2 uppercase">
             Regulatory Compliance & Sustainability Upgrades
           </h1>
