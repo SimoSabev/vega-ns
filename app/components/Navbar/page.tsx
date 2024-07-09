@@ -137,7 +137,7 @@ const Navbar = () => {
               )}
             </button>
             {servicesDropdownOpen && (
-              <div className="bg-[#1b1b1b] flex flex-col items-justify mt-2">
+              <div className="bg-[#1b1b1b] border-2 w-full  border-slate-200 flex flex-col items-center justify-between mt-2 mr-5">
                 <Link
                   href="/pages/Operational"
                   className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#414040]"

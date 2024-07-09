@@ -7,7 +7,9 @@ import Footer from "@/app/components/footer/page";
 const Service1 = () => {
   return (
     <div className="bg-dark min-h-screen">
-      <Navbar />
+      <div className="mb-10">
+        <Navbar />
+      </div>
       <div
         className="bg-center bg-cover mt-3"
         style={{
@@ -19,7 +21,7 @@ const Service1 = () => {
         }}
       ></div>
 
-      <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center items-center text-justify">
+      <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center items-center sm:text-left text-justify">
         <h1 className="text-2xl sm:text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200">
           Organizational & Operational support
         </h1>

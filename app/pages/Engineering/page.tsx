@@ -7,8 +7,9 @@ import Footer from "@/app/components/footer/page";
 const Service2 = () => {
   return (
     <div className="bg-dark min-h-screen">
-      <Navbar />
-
+      <div className="mb-10">
+        <Navbar />
+      </div>
       <div
         className="bg-center bg-cover mt-3"
         style={{
@@ -22,7 +23,7 @@ const Service2 = () => {
         {" "}
       </div>
 
-      <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center items-center text-justify">
+      <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center items-center sm:text-left text-justify">
         <h1 className="text-2xl sm:text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200">
           TECHNICAL AND ENGINEERING SERVICES
         </h1>
@@ -41,8 +42,12 @@ const Service2 = () => {
             <li className="text-slate-200">
               • Seasonal Maintenance & Post-Refit Support
               <ul className="ml-6 mb-6 list-disc list-inside">
-                <li className="text-slate-200">Warranty and Guarantee Services</li>
-                <li className="text-slate-200">Sea Trials & Follow-up Inspections</li>
+                <li className="text-slate-200">
+                  Warranty and Guarantee Services
+                </li>
+                <li className="text-slate-200">
+                  Sea Trials & Follow-up Inspections
+                </li>
                 <li className="text-slate-200">Regular Maintenance Programs</li>
               </ul>
             </li>
@@ -50,7 +55,9 @@ const Service2 = () => {
             <li className="text-slate-200">
               • Structural Modification
               <ul className="ml-6 mb-6 list-disc list-inside">
-                <li className="text-slate-200">Hull Extensions and Modifications</li>
+                <li className="text-slate-200">
+                  Hull Extensions and Modifications
+                </li>
                 <li className="text-slate-200">Structural Reinforcements</li>
                 <li className="text-slate-200">Superstructure Modifications</li>
               </ul>
@@ -59,12 +66,20 @@ const Service2 = () => {
             <li className="text-slate-200">
               • Mechanical and Electrical Upgrades
               <ul className="ml-6 mb-6 list-disc list-inside">
-                <li className="text-slate-200">Engine and Generator Overhauls</li>
+                <li className="text-slate-200">
+                  Engine and Generator Overhauls
+                </li>
                 <li className="text-slate-200">HVAC System Upgrades</li>
-                <li className="text-slate-200">Electrical System Rewiring and Upgrades</li>
+                <li className="text-slate-200">
+                  Electrical System Rewiring and Upgrades
+                </li>
                 <li className="text-slate-200">Piping System Enhancements</li>
-                <li className="text-slate-200">Underwater & Auxiliary Machineries Overhauls & Upgrades</li>
-                <li className="text-slate-200">Advanced Navigation Systems and Electronics</li>
+                <li className="text-slate-200">
+                  Underwater & Auxiliary Machineries Overhauls & Upgrades
+                </li>
+                <li className="text-slate-200">
+                  Advanced Navigation Systems and Electronics
+                </li>
               </ul>
             </li>
 
@@ -72,7 +87,9 @@ const Service2 = () => {
               • Exterior Renovation
               <ul className="ml-6 mb-6 list-disc list-inside">
                 <li className="text-slate-200">Teak Replacement and Repairs</li>
-                <li className="text-slate-200">Paint and Coating Application</li>
+                <li className="text-slate-200">
+                  Paint and Coating Application
+                </li>
                 <li className="text-slate-200">Polishing and Brightwork</li>
                 <li className="text-slate-200">Custom Metal Fabrication</li>
                 <li className="text-slate-200">Underwater Hull Maintenance</li>
@@ -84,19 +101,31 @@ const Service2 = () => {
             <li className="text-slate-200">
               • Interior Design Enhancement and Layout Changes
               <ul className="ml-6 mb-6 list-disc list-inside">
-                <li className="text-slate-200">High-end Carpentry and Joinery</li>
-                <li className="text-slate-200">Soft Furnishings and Upholstery</li>
-                <li className="text-slate-200">Lighting Design and Installation</li>
-                <li className="text-slate-200">High-End Entertainment Systems</li>
+                <li className="text-slate-200">
+                  High-end Carpentry and Joinery
+                </li>
+                <li className="text-slate-200">
+                  Soft Furnishings and Upholstery
+                </li>
+                <li className="text-slate-200">
+                  Lighting Design and Installation
+                </li>
+                <li className="text-slate-200">
+                  High-End Entertainment Systems
+                </li>
               </ul>
             </li>
 
             <li className="text-slate-200">
               • Technological Enhancements
               <ul className="ml-6 mb-6 list-disc list-inside">
-                <li className="text-slate-200">Integration of Smart Yacht Technology</li>
+                <li className="text-slate-200">
+                  Integration of Smart Yacht Technology
+                </li>
                 <li className="text-slate-200">Advanced Security Systems</li>
-                <li className="text-slate-200">High-speed Internet and Communication Systems</li>
+                <li className="text-slate-200">
+                  High-speed Internet and Communication Systems
+                </li>
                 <li className="text-slate-200">Audio-Visual Systems</li>
               </ul>
             </li>
@@ -108,7 +137,9 @@ const Service2 = () => {
                 <li className="text-slate-200">Custom Bars and Lounges</li>
                 <li className="text-slate-200">Gym and Wellness Areas</li>
                 <li className="text-slate-200">Entertainment Zones</li>
-                <li className="text-slate-200">Outdoor Living Spaces and Furniture</li>
+                <li className="text-slate-200">
+                  Outdoor Living Spaces and Furniture
+                </li>
               </ul>
             </li>
           </ul>
