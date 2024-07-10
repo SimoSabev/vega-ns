@@ -1,9 +1,11 @@
+"use client"
 import React from "react";
 import background from "../../../public/Header-image.jpg";
 import Navbar from "@/app/components/Navbar/page";
 import Cards_Services from "@/app/components/card-services/page";
 import Footer from "@/app/components/footer/page";
 import VEGA from "../../../public/Vega-logo.png";
+import { motion } from "framer-motion";
 
 const Main = () => {
   return (
@@ -20,7 +22,7 @@ const Main = () => {
         </div>
 
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="my-32 text-justify text-xl p-4 sm:p-10 rounded-3xl text-slate-200 ">
+          <motion.p initial={{y:"70vh"}} animate={{y:"0vh"}} transform={{duration:0.8, ease:"easeInOut"}} className="my-32 text-justify text-xl p-4 sm:p-10 rounded-3xl text-slate-200 ">
             With over 20 years of experience and a passion for excellence, we
             bring solid knowledge and offer a wide range of solutions to enhance
             your yacht&apos;s performance, appearance, and functionality. We
@@ -28,7 +30,7 @@ const Main = () => {
             modernizing, customizing, and upgrading solutions, ensuring we cover
             all aspects of the entire refit project, from the initial study and
             assessment throughout its completion and delivery.
-          </p>
+          </motion.p>
         </div>
       </div>
 

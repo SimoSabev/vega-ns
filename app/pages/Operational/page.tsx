@@ -1,4 +1,5 @@
 // components/Service1.jsx
+"use client"
 import React from "react";
 import services1 from "../../../public/1_Operational_.jpg";
 import Navbar from "@/app/components/Navbar/page";
@@ -32,7 +33,7 @@ const Service1 = () => {
           time.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36 mt-16">
+        <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36">
           <ul className="mt-8 sm:mt-24 max-w-xl">
             <li className="text-slate-200">
               • Defining specifications, developing a comprehensive refit plan

@@ -1,4 +1,5 @@
 // components/Service3.jsx
+"use client"
 import React from "react";
 import services1 from "../../../public/1_Operational_.jpg";
 import Navbar from "@/app/components/Navbar/page";
@@ -33,7 +34,7 @@ const Service3 = () => {
           to ensure the yacht meets all safety and operational standards.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36 mt-16">
+        <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36">
           <ul className="mt-8 sm:mt-24 max-w-xl">
             <li className="text-slate-200">
               • Ensuring Compliance with International Maritime Regulations –
