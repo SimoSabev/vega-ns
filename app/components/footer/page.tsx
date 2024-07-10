@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import logo from "../../../public/Vega-logo.png";
 import { motion } from "framer-motion";
