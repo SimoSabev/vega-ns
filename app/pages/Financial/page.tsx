@@ -1,4 +1,5 @@
 // components/Service4.jsx
+"use client"
 import React from "react";
 import services1 from "../../../public/1_Operational_.jpg";
 import Navbar from "@/app/components/Navbar/page";
@@ -29,7 +30,7 @@ const Service4 = () => {
           Providing financial and legal services for yachts involves a range of specialized offerings tailored to the unique needs of yacht owners and operators. These essential services ensure that the yacht is not only legally compliant but also financially optimized.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36 mt-16">
+        <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36">
           <ul className="mt-8 sm:mt-24 max-w-xl">
             <li className="font-bold text-slate-200">
               • Budget Development and Management
