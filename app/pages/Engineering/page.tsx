@@ -26,7 +26,7 @@ const Service2 = () => {
 
       <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center items-center sm:text-left text-justify">
         <h1 className="text-2xl sm:text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200">
-          TECHNICAL AND ENGINEERING SERVICES
+          TECHNICAL & ENGINEERING SERVICES
         </h1>
 
         <p className="mt-8 sm:mt-16 text-justify max-w-xl text-slate-200">
