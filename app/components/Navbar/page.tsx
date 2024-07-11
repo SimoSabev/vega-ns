@@ -37,7 +37,7 @@ const Navbar = () => {
             ) : (
               <div className="flex justify-start items-center w-screen ml-10 mt-10">
                 <MenuIcon className=" h-20 w-10 " />
-                <Link className="bg-red-600 ml-11" href="/">
+                <Link className=" ml-11" href="/">
                   <Image
                     className=" "
                     src={logo}
