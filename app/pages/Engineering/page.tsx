@@ -1,5 +1,5 @@
 // components/Service1.jsx
-"use client"
+"use client";
 import React from "react";
 import services1 from "../../../public/1_Operational_.jpg";
 import Navbar from "@/app/components/Navbar/page";
@@ -100,20 +100,30 @@ const Service2 = () => {
 
           <ul className="mt-8 sm:mt-24 max-w-xl">
             <li className="text-slate-200">
-              • Interior Design Enhancement and Layout Changes
+              • Interior Design and Layout Changes
               <ul className="ml-6 mb-6 list-disc list-inside">
+                <li className="text-slate-200">Design Concept development</li>
                 <li className="text-slate-200">
-                  High-end Carpentry and Joinery
+                  Space reconfiguration and layout optimization
                 </li>
+                <li className="text-slate-200">
+                  Material and colour selection
+                </li>
+                <li className="text-slate-200">Furniture and Fixtures</li>
+              </ul>
+            </li>
+
+            <li className="text-slate-200">
+              • Interior Enhancement
+              <ul className="ml-6 mb-6 list-disc list-inside">
+                <li className="text-slate-200">Carpentry and Varnishing</li>
                 <li className="text-slate-200">
                   Soft Furnishings and Upholstery
                 </li>
                 <li className="text-slate-200">
-                  Lighting Design and Installation
+                  Lighting Modification and Installation
                 </li>
-                <li className="text-slate-200">
-                  High-End Entertainment Systems
-                </li>
+                <li className="text-slate-200">Storage solutions</li>
               </ul>
             </li>
 
