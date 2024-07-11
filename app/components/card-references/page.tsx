@@ -1,23 +1,57 @@
+"use client";
 import React from "react";
 import services from "../../../public/Services1.jpg";
 import references from "../../../public/References.jpg";
+import { motion } from "framer-motion";
+import { useMediaQuery } from "react-responsive";
 
 const Cards_Services1 = () => {
+  const isSmallScreen = useMediaQuery({ maxWidth: 768 });
+
+  const animationPropsLeft = isSmallScreen
+    ? {
+        initial: { y: "0vh", opacity: 0 },
+        whileInView: { y: "0vh", opacity: 1 },
+        transition: { duration: 0.7, ease: "easeOut" },
+        viewport: { once: true },
+      }
+    : {
+        initial: { x: "-150vh", opacity: 0 },
+        whileInView: { x: "0vh", opacity: 1 },
+        transition: { duration: 0.7, ease: "easeOut" },
+        viewport: { once: true },
+      };
+
+  const animationPropsRight = isSmallScreen
+    ? {
+        initial: { y: "0vh", opacity: 0 },
+        whileInView: { y: "0vh", opacity: 1 },
+        transition: { duration: 0.7, ease: "easeOut" },
+        viewport: { once: true },
+      }
+    : {
+        initial: { x: "150vh", opacity: 0 },
+        whileInView: { x: "0vh", opacity: 1 },
+        transition: { duration: 0.7, ease: "easeOut" },
+        viewport: { once: true },
+      };
+
   return (
     <div
       data-theme="light"
       className="flex flex-col items-center text-justify overflow-x-hidden"
     >
       {/* Services Section */}
-      <div className="bg-[#242323] w-full flex flex-col md:flex-row">
+      <motion.div {...animationPropsRight} className="bg-[#242323] w-full flex flex-col md:flex-row">
         {/* Left Section - Image */}
-        <div className="flex justify-center items-center w-full md:w-1/2">
+        <motion.div {...animationPropsLeft}
+          transition={{ ...animationPropsLeft.transition, delay: 0.2 }} className="flex justify-center items-center w-full md:w-1/2">
           <img
             src={services.src}
             alt="service"
             className="w-full h-[40vh] md:h-[55vh] object-cover"
           />
-        </div>
+        </motion.div>
         {/* Right Section - Text */}
         <div className="flex flex-col justify-center items-center p-6 md:pl-16 w-full md:w-1/2">
           <ul className="list-disc text-slate-200 text-justify text-lg flex flex-col justify-center items-start md:items-start">
@@ -39,41 +73,46 @@ const Cards_Services1 = () => {
             </li>
             <li className="my-2">
               Project management, interior refitting and upgrades for various
-              motor yachts among which 73m Perini Navi, 66m Oceanco, 33m
-              Classic Feadship 1973
+              motor yachts among which 73m Perini Navi, 66m Oceanco, 33m Classic
+              Feadship 1973
             </li>
           </ul>
         </div>
-      </div>
+      </motion.div>
 
       {/* References Section */}
-      <div className="bg-[#f1f1f1] w-full flex flex-col md:flex-row">
+      <motion.div {...animationPropsLeft} className="bg-[#f1f1f1] w-full flex flex-col md:flex-row">
         {/* Left Section - Text */}
         <div className="flex flex-col justify-center items-center p-6 md:pr-16 w-full md:w-1/2">
           <ul className="list-disc pl-6 text-justify text-lg flex flex-col justify-center items-start md:items-start">
             <li className="my-2">
-              Conversion follow up (extension / helipad installation / Bow and stern conversion) 
+              Conversion follow up (extension / helipad installation / Bow and
+              stern conversion)
             </li>
             <li className="my-2">
-              Complete control / command refit on commercial ship (machineries, safeties, propulsion)
+              Complete control / command refit on commercial ship (machineries,
+              safeties, propulsion)
             </li>
             <li className="my-2">
-              New build construction management of multiple yachts and commercial ships
+              New build construction management of multiple yachts and
+              commercial ships
             </li>
             <li className="my-2">
-              New build construction management of a new series of 2 luxury sail assisted cruise ships of +200m 
+              New build construction management of a new series of 2 luxury sail
+              assisted cruise ships of +200m
             </li>
           </ul>
         </div>
         {/* Right Section - Image */}
-        <div className="flex justify-center items-center w-full md:w-1/2">
+        <motion.div {...animationPropsRight}
+          transition={{ ...animationPropsRight.transition, delay: 0.2 }} className="flex justify-center items-center w-full md:w-1/2">
           <img
             src={references.src}
             alt="references"
             className="w-full h-[40vh] md:h-[55vh] object-cover"
           />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 };

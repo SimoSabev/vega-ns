@@ -32,7 +32,7 @@ const Navbar = () => {
           >
             {isOpen ? (
               <div className="flex justify-start items-center w-screen ml-10 mt-3">
-                <XIcon className="pt-12 h-20 w-10 z-10" />
+                <XIcon className="pt-12 h-20 w-10 z-20" />
               </div>
             ) : (
               <div className="flex justify-start items-center w-screen ml-10 mt-10">
@@ -50,7 +50,7 @@ const Navbar = () => {
             )}
           </button>
         </div>
-        <div className="flex items-center justify-center flex-grow mt-10 text-" >
+        <div className="flex items-center justify-center flex-grow mt-10 " >
           <div className="hidden md:flex space-x-12">
             <div className="relative">
               <button
@@ -65,7 +65,7 @@ const Navbar = () => {
                 )}
               </button>
               {servicesDropdownOpen && (
-                <div className="absolute mt-6 w-72 rounded-md shadow-lg bg-[#1b1b1b] ring-1 ring-black ring-opacity-5">
+                <div className="absolute z-10 mt-6 w-72 rounded-md shadow-lg bg-[#1b1b1b] ring-1 ring-black ring-opacity-5">
                   <div
                     className="py-1"
                     role="menu"
@@ -136,7 +136,7 @@ const Navbar = () => {
         </div>
       </nav>
       {isOpen && (
-        <div className="md:hidden bg-[#1b1b1b] rounded-3xl flex flex-col flex-wrap justify-center items-center relative bottom-16">
+        <div className="md:hidden bg-[#1b1b1b] z-10 rounded-3xl flex flex-col flex-wrap justify-center items-center relative bottom-16">
           <div className="relative ">
             <button
               onClick={toggleServicesDropdown}
@@ -150,38 +150,38 @@ const Navbar = () => {
               )}
             </button>
             {servicesDropdownOpen && (
-              <div className="bg-[#1b1b1b] border-2 w-full border-slate-200 flex flex-col items-center justify-between mt-2 mr-5">
+              <div className="bg-[#1b1b1b]   flex flex-col items-center justify-center mt-2 mr-5">
                 <Link
                   href="/pages/Operational"
-                  className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#414040]"
+                  className="block px-4 py-2 text-sm border-2 w-full border-slate-200 text-gray-200 hover:bg-[#414040]"
                   role="menuitem"
                 >
                   Operational Support
                 </Link>
                 <Link
                   href="/pages/Engineering"
-                  className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#414040]"
+                  className="block px-4 py-2 text-sm border-2 border-t-0 w-full border-slate-200 text-gray-200 hover:bg-[#414040]"
                   role="menuitem"
                 >
                   Technical and Engineering Services
                 </Link>
                 <Link
                   href="/pages/Sustainability"
-                  className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#414040]"
+                  className="block px-4 py-2 text-sm border-2 border-t-0 w-full border-slate-200 text-gray-200 hover:bg-[#414040]"
                   role="menuitem"
                 >
                   Regulatory Compliance & Sustainability Upgrades
                 </Link>
                 <Link
                   href="/pages/Financial"
-                  className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#414040]"
+                  className="block px-4 py-2 text-sm border-2 border-t-0 w-full border-slate-200 text-gray-200 hover:bg-[#414040]"
                   role="menuitem"
                 >
                   Financial & Legal Support
                 </Link>
                 <Link
                   href="/pages/ISM"
-                  className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#414040]"
+                  className=" flex justify-center items-center px-4 py-2 text-sm border-2 border-t-0 w-full border-slate-200 text-gray-200 hover:bg-[#414040]"
                   role="menuitem"
                 >
                   ISM Support & Maintenance Database Implementation

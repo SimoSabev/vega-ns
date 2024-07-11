@@ -1,8 +1,9 @@
+"use client"
 import React from "react";
 import Navbar from "@/app/components/Navbar/page";
 import background from "../../../public/About-us22.jpg";
 import Footer from "@/app/components/footer/page";
-
+import { motion } from "framer-motion";
 const About_us = () => {
   return (
     <div data-theme="light">
@@ -20,7 +21,7 @@ const About_us = () => {
         </div>
       </div>
       <div className="max-w-4xl mx-auto">
-        <p className="my-32 text-justify sm:text-lg md:text-xl p-10  rounded-3xl">
+        <motion.p initial={{y:"70vh"}} animate={{y:"0vh"}} transform={{duration:0.8, ease:"easeInOut"}} className="my-32 text-justify sm:text-lg md:text-xl p-10  rounded-3xl">
           Our team is composed of highly qualified and experienced professionals
           with a solid technical and project management background acquired
           during the past +20 years. We have a proven record of managing and
@@ -33,7 +34,7 @@ const About_us = () => {
           survey, full vessel painting along with interior outfitting, carpentry
           works and all AV IT solutions. We are based in South of France,
           Monaco, Dubai and operating globally.
-        </p>
+        </motion.p>
       </div>
       <div>
         <Footer />
