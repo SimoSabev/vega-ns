@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div data-theme="light">
+    <div data-theme="light" className="overflow-x-hidden">
       <div className="relative h-64 max-sm:h-[80vh] max-md:h-[75vh] lg:h-[70vh]">
         <div
           className="absolute inset-0 flex flex-col justify-center items-center bg-center bg-cover"

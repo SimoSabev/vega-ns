@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const Main = () => {
   return (
-    <div data-theme="light" className="min-h-screen flex flex-col">
+    <div data-theme="light" className="min-h-screen flex flex-col overflow-x-hidden">
       <div
         className="hero parallax relative flex flex-col justify-center items-center"
         style={{
