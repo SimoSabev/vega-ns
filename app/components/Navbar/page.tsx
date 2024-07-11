@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="p-4 bg-transparent ml-10">
+    <div className=" bg-transparent  ">
       <nav className="flex justify-between items-center">
         <div className="md:hidden">
           <button
@@ -31,13 +31,26 @@ const Navbar = () => {
             className="text-gray-200 focus:outline-none"
           >
             {isOpen ? (
-              <XIcon className=" absolute h-8 w-8 left-8" />
+              <div className="flex justify-start items-center w-screen ml-10 mt-3">
+                <XIcon className="pt-12 h-20 w-10 z-10" />
+              </div>
             ) : (
-              <MenuIcon className="absolute h-8 w-8 left-8" />
+              <div className="flex justify-start items-center w-screen ml-10 mt-10">
+                <MenuIcon className=" h-20 w-10 " />
+                <Link href="/">
+                  <Image
+                    className=" ml-11"
+                    src={logo}
+                    alt="logo"
+                    width="180"
+                    height="100"
+                  />
+                </Link>
+              </div>
             )}
           </button>
         </div>
-        <div className="flex items-center justify-center flex-grow">
+        <div className="flex items-center justify-center flex-grow mt-10 text-" >
           <div className="hidden md:flex space-x-12">
             <div className="relative">
               <button
@@ -52,7 +65,7 @@ const Navbar = () => {
                 )}
               </button>
               {servicesDropdownOpen && (
-                <div className="absolute mt-2 w-72 rounded-md shadow-lg bg-[#1b1b1b] ring-1 ring-black ring-opacity-5">
+                <div className="absolute mt-6 w-72 rounded-md shadow-lg bg-[#1b1b1b] ring-1 ring-black ring-opacity-5">
                   <div
                     className="py-1"
                     role="menu"
@@ -123,7 +136,7 @@ const Navbar = () => {
         </div>
       </nav>
       {isOpen && (
-        <div className="md:hidden bg-[#1b1b1b] rounded-3xl flex flex-col flex-wrap justify-center items-center">
+        <div className="md:hidden bg-[#1b1b1b] rounded-3xl flex flex-col flex-wrap justify-center items-center relative bottom-16">
           <div className="relative ">
             <button
               onClick={toggleServicesDropdown}
@@ -137,7 +150,7 @@ const Navbar = () => {
               )}
             </button>
             {servicesDropdownOpen && (
-              <div className="bg-[#1b1b1b] border-2 w-full  border-slate-200 flex flex-col items-center justify-between mt-2 mr-5">
+              <div className="bg-[#1b1b1b] border-2 w-full border-slate-200 flex flex-col items-center justify-between mt-2 mr-5">
                 <Link
                   href="/pages/Operational"
                   className="block px-4 py-2 text-sm text-gray-200 hover:bg-[#414040]"

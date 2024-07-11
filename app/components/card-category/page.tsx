@@ -63,7 +63,7 @@ const Cards_Services = () => {
         </div>
         <div className="flex flex-col justify-center items-center p-6 w-full lg:w-10/12 bg-slate-200 space-y-4">
           <h1 className="text-2xl lg:text-3xl text-[#242323] font-bold border-b-2 border-[#242323] pb-2 uppercase">
-            Technical and Engineering Services
+            Technical & Engineering Services
           </h1>
           <p className="text-sm text-[#242323] lg:max-w-xl  lg:text-base">
             The technical services and expertise are essential for the
