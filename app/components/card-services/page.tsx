@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import services from "../../../public/Services1.jpg";
+import services from "../../../public/services_main.jpg";
 import references from "../../../public/References.jpg";
 import emergency_response from "../../../public/Emergency-response.jpg";
 import about_us from "../../../public/About-us.jpg";
@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 
 const Cards_Services = () => {
+  
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   const animationPropsLeft = isSmallScreen

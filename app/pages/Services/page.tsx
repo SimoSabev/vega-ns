@@ -18,7 +18,7 @@ const Services = () => {
           }}
         >
           <div className="max-w-4xl mx-auto mt-20 p-4 sm:p-10">
-            <motion.p initial={{y:"70vh"}} animate={{y:"0vh"}} transform={{duration:0.8, ease:"easeInOut"}} className="my-24 sm:my-32 text-lg sm:text-lg lg:text-xl rounded-3xl text-justify text-slate-200">
+            <motion.p initial={{y:"70vh"}} animate={{y:"0vh"}} transform={{duration:0.8, ease:"easeInOut"}} className="md:my-24 my-32  text-sm md:text-lg lg:text-lg xl:text-2xl 2xl:text-2xl rounded-3xl text-justify text-slate-200">
               Our services are specifically tailored to meet the unique needs and
               desires of each owner, enhancing the vessel&apos;s aesthetics, functionality, 
               and value. Our ability to integrate the latest technology and design 

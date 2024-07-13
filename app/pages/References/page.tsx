@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import Navbar from "@/app/components/Navbar/page";
-import background from "../../../public/Refre.jpg";
+import background from "../../../public/Reffferencess.jpg";
 import Cards_Services1 from "@/app/components/card-references/page";
 import Footer from "@/app/components/footer/page";
 import { motion } from "framer-motion";
@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const References = () => {
   return (
     <div data-theme="light" className=" overflow-x-hidden">
-      <div className="relative h-[70vh]">
+      <div className="relative h-[70vh] text-left md:text-justify lg:text-justify xl:text-justify 2xl:text-justify">
         <div
           className="absolute inset-0 flex flex-col justify-center items-center bg-center bg-cover"
           style={{
@@ -22,7 +22,7 @@ const References = () => {
             <Navbar />
           </div>
           <div className="max-w-3xl  mx-auto">
-            <motion.p initial={{y:"70vh"}} animate={{y:"0vh"}} transform={{duration:0.8, ease:"easeInOut"}} className=" text-xl text-justify text-slate-200 p-10 rounded-3xl">
+            <motion.p initial={{y:"70vh"}} animate={{y:"0vh"}} transform={{duration:0.8, ease:"easeInOut"}} className=" text-md md:text-xl lg:text-xl xl:text-2xl text-left md:text-justify lg:text-justify xl:text-justify 2xl:text-justify text-slate-200 p-10 mt-36 md:mt-28 lg:mt-24 xl:mt-20 rounded-3xl">
               Selecting a trusted and reliable partner for your superyacht refit
               is crucial for ensuring high-quality work, compliance with
               regulations, and adherence to timelines and budgets. With a proven
