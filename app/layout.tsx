@@ -6,6 +6,15 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico", // /public path
+        href: "/images/icon_name.svg", // /public path
+      },
+    ],
+  },
+
   title: "VEGA",
   description: "VEGA",
 };
@@ -17,13 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="light">
-      <head>
-        <link rel="icon" type="image/x-icon" href={favicon.src} />
-        <meta
-          name="google-site-verification"
-          content="VSiBE81eCVWmtHilJXKMLbENxegAdmc5LkwayPBdmnc"
-        />
-      </head>
+       <head/>
       <body className={inter.className}>{children}</body>
     </html>
   );
