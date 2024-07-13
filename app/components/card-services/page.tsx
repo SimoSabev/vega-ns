@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import services from "../../../public/services_main.jpg";
+import services from "../../../public/services_main.jpg"
 import references from "../../../public/References.jpg";
 import emergency_response from "../../../public/Emergency-response.jpg";
 import about_us from "../../../public/About-us.jpg";
@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 
 const Cards_Services = () => {
+  
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   const animationPropsLeft = isSmallScreen
@@ -56,7 +57,7 @@ const Cards_Services = () => {
           className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2"
         >
           <Image
-            src={services}
+            src={services.src}
             alt="service"
             layout="fill"
             objectFit="cover"
@@ -104,12 +105,10 @@ const Cards_Services = () => {
           transition={{ ...animationPropsRight.transition, delay: 0.2 }}
           className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2"
         >
-          <Image
-            src={references}
+          <img
+            src={references.src}
             alt="references"
-            layout="responsive"
-            width={1200}
-            height={800}
+            className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </motion.div>
         <div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2 order-2 md:order-1 lg:order-1">
@@ -147,12 +146,10 @@ const Cards_Services = () => {
           transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
           className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2"
         >
-          <Image
-            src={emergency_response}
+          <img
+            src={emergency_response.src}
             alt="emergency response"
-            layout="responsive"
-            width={1200}
-            height={800}
+            className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </motion.div>
         <div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2">
@@ -190,12 +187,10 @@ const Cards_Services = () => {
           transition={{ ...animationPropsRight.transition, delay: 0.2 }}
           className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2"
         >
-          <Image
-            src={about_us}
+          <img
+            src={about_us.src}
             alt="about us"
-            layout="responsive"
-            width={1200}
-            height={800}
+            className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </motion.div>
         <div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2 order-2 md:order-1 lg:order-1">
