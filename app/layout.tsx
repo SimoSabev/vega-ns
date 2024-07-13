@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon.ico", // /public path
-        href: "/images/icon_name.svg", // /public path
+        url: "../app/favicon.ico", // /public path
+        href: "../app/favicon.ico", // /public path
       },
     ],
   },
@@ -26,7 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="light">
-       <head/>
+      <head>
+        <link rel="icon" type="image/x-icon" href={favicon.src}  sizes="any" />
+        <meta
+          name="google-site-verification"
+          content="VSiBE81eCVWmtHilJXKMLbENxegAdmc5LkwayPBdmnc"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
