@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 import Navbar from "@/app/components/Navbar/page";
-import background from "../../../public/Reffferencess.jpg"; // Corrected import path
+import background from "../../../public/Reffferencess.jpg" // Corrected import path
 import Cards_Services1 from "@/app/components/card-references/page";
 import Footer from "@/app/components/footer/page";
 import { motion } from "framer-motion";
@@ -13,7 +13,7 @@ const References = () => {
         <div
           className="absolute inset-0 flex flex-col justify-center items-center bg-center bg-cover"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background})`, // Corrected reference to background
+            backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background.src})`, // Corrected reference to background
           }}
         >
           <div className="w-full absolute top-0">
