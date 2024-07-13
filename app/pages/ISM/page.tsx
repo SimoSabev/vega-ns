@@ -1,6 +1,6 @@
-// components/Service4.jsx
 "use client";
 import React from "react";
+import { motion } from "framer-motion";
 import services1 from "../../../public/1_Operational_.jpg";
 import Navbar from "@/app/components/Navbar/page";
 import Footer from "@/app/components/footer/page";
@@ -11,39 +11,64 @@ const Service5 = () => {
       <div className="mb-10">
         <Navbar />
       </div>
-      <div
+      <motion.div
         className="bg-center bg-cover mt-3"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(22, 26, 44, 0.8), rgba(50, 58, 88, 0.7), rgba(74, 85, 125, 0.6), rgba(118, 118, 118, 0.5)), url(${services1.src})`,
           height: "55vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
         }}
-      ></div>
+        initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      transition={{ duration: 1.2, ease:"easeInOut" }}
+      >
+        <motion.div
+          className="bg-center bg-cover"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(22, 26, 44, 0.8), rgba(50, 58, 88, 0.7), rgba(74, 85, 125, 0.6), rgba(118, 118, 118, 0.5)), url(${services1.src})`,
+            height: "100%",
+            width: "100%",
+            position: "absolute",
+            zIndex: -1,
+          }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        />
+      </motion.div>
 
-      <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center sm:text-left items-center text-justify">
-        <h1 className="text-2xl sm:text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200">
+      <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center sm:text-left items-center text-left md:text-justify lg:text-justify xl:text-justify 2xl:text-justify">
+        <motion.h1
+          className="text-2xl sm:text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
           ISM Support & Maintenance Database Implementation
-        </h1>
-        <p className="mt-8 sm:mt-16 text-justify max-w-xl text-slate-200">
+        </motion.h1>
+        <motion.p
+          className="mt-8 sm:mt-16 text-left md:text-justify lg:text-justify xl:text-justify 2xl:text-justify max-w-xl text-slate-200"
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.2 }}
+        >
           ISM (International Safety Management) support services for yachts are
           crucial for ensuring safety, environmental protection, and operational
           efficiency. The ISM Code requires Companies and their vessels to
           implement a Safety Management System (SMS) and we at VEGA assist them
           with the best implementation practices.
-        </p>
+        </motion.p>
 
         <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36 ">
-          <ul className="mt-8 sm:mt-24 max-w-xl">
+          <motion.ul
+            className="mt-8 sm:mt-24 max-w-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
             <li className="text-slate-200">
-              • ISM Support
-              <ul className="mt-3">
-                <li className="text-slate-200">
-                  &nbsp;&nbsp;&nbsp; o ISM implementation:
-                </li>
-              </ul>
-              <p className="font-normal text-slate-200"></p>
+              • ISM Support & Implementation
               <ul className="list-disc ml-5">
                 <li className="text-justify ml-5 text-slate-200">
                   Initial Assessment: Identifying gaps between current practices
@@ -65,7 +90,7 @@ const Service5 = () => {
             </li>
             <br />
             <li className="text-slate-200">
-              • ISM audits We can assist with mandatory audits:
+              • ISM Audits Assistance
               <ul className="list-disc ml-5">
                 <li className="text-justify ml-5 text-slate-200">
                   Internal Audits: Conducting internal audits to verify
@@ -96,8 +121,13 @@ const Service5 = () => {
               </p>
             </li>
             <br />
-          </ul>
-          <ul className="mt-8 sm:mt-24 max-w-xl">
+          </motion.ul>
+          <motion.ul
+            className="mt-8 sm:mt-24 max-w-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
             <br />
             <li className="text-slate-200">
               • Operational Efficiency, Setup Books & Crew Training
@@ -146,7 +176,7 @@ const Service5 = () => {
                 extending the lifespan of the equipment.
               </p>
             </li>
-          </ul>
+          </motion.ul>
         </div>
       </div>
       <Footer />

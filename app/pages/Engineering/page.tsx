@@ -1,6 +1,6 @@
-// components/Service1.jsx
 "use client";
 import React from "react";
+import { motion } from "framer-motion";
 import services1 from "../../../public/1_Operational_.jpg";
 import Navbar from "@/app/components/Navbar/page";
 import Footer from "@/app/components/footer/page";
@@ -11,7 +11,10 @@ const Service2 = () => {
       <div className="mb-10">
         <Navbar />
       </div>
-      <div
+      <motion.div
+      initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      transition={{ duration: 1.2, ease:"easeInOut" }}
         className="bg-center bg-cover mt-3"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(22, 26, 44, 0.8), rgba(50, 58, 88, 0.7), rgba(74, 85, 125, 0.6), rgba(118, 118, 118, 0.5)), url(${services1.src})`,
@@ -22,24 +25,39 @@ const Service2 = () => {
         }}
       >
         {" "}
-      </div>
+      </motion.div>
 
       <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center items-center sm:text-left text-justify">
-        <h1 className="text-2xl sm:text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200">
+        <motion.h1
+          className="text-2xl sm:text-3xl pb-2 uppercase text-slate-200 border-b-2 border-slate-200"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
           TECHNICAL & ENGINEERING SERVICES
-        </h1>
+        </motion.h1>
 
-        <p className="mt-8 sm:mt-16 text-justify max-w-xl text-slate-200">
+        <motion.p
+          className="mt-8 sm:mt-16 text-justify max-w-xl text-slate-200"
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 0.2 }}
+        >
           The technical services and expertise are essential for the successful
           execution of any yacht refit project. Each area requires specialized
           knowledge and experience to ensure that the refit meets the highest
           standards of quality, safety, and innovation. Engaging our team with
           diverse technical capabilities and a track record of successful yacht
           refit projects can help ensure the project&apos;s success.
-        </p>
+        </motion.p>
 
         <div className="flex flex-col md:flex-row justify-center items-start gap-8 md:gap-36">
-          <ul className="mt-8 sm:mt-24 max-w-xl">
+          <motion.ul
+            className="mt-8 sm:mt-24 max-w-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.4 }}
+          >
             <li className="text-slate-200">
               • Seasonal Maintenance & Post-Refit Support
               <ul className="ml-6 mb-6 list-disc list-inside">
@@ -96,9 +114,14 @@ const Service2 = () => {
                 <li className="text-slate-200">Underwater Hull Maintenance</li>
               </ul>
             </li>
-          </ul>
+          </motion.ul>
 
-          <ul className="mt-8 sm:mt-24 max-w-xl">
+          <motion.ul
+            className="mt-8 sm:mt-24 max-w-xl"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.6 }}
+          >
             <li className="text-slate-200">
               • Interior Design and Layout Changes
               <ul className="ml-6 mb-6 list-disc list-inside">
@@ -153,7 +176,7 @@ const Service2 = () => {
                 </li>
               </ul>
             </li>
-          </ul>
+          </motion.ul>
         </div>
       </div>
       <Footer />
