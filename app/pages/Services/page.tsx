@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Navbar from "@/app/components/Navbar/page";
 import background from "../../../public/Services23333.jpg"; // Corrected import path
