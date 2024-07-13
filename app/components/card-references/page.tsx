@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import services from "../../../public/references_main.jpg";
-import references from "../../../public/References.jpg";
+import references from "../../../public/references_main.jpg";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 import Image from "next/image";
