@@ -17,9 +17,9 @@ const Main = () => {
         className="hero parallax relative flex flex-col justify-center items-center"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background.src})`,
-          height: "50vh", // Set the height to half the viewport height
-          backgroundSize: "cover", // Add this line
-          backgroundPosition: "center", // Add this line
+          height: "50vh",
+          backgroundSize: "cover", 
+          backgroundPosition: "center",
         }}
       >
         <div className="w-full absolute top-0 z-20">

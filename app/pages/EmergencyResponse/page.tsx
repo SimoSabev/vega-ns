@@ -9,7 +9,7 @@ const Emergency_Response = () => {
   return (
     <div data-theme="light" className="overflow-x-hidden">
       <div className="relative bg-[#242323] h-auto min-h-[50vh] flex flex-col justify-center items-center">
-        <div className="w-full absolute top-0">
+        <div className="w-full absolute top-0 z-20">
           <Navbar />
         </div>
         <div className="flex flex-col justify-center items-center lg:items-start p-10 max-w-2xl lg:text-left">

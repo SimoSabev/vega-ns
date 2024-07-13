@@ -31,7 +31,7 @@ const Services = () => {
               according to your expectations.
             </motion.p>
           </div>
-          <div className="w-full absolute top-0">
+          <div className="w-full absolute top-0 z-20">
             <Navbar />
           </div>
         </div>
