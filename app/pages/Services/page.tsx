@@ -1,8 +1,6 @@
-"use client"
-// components/Services.jsx
 import React from "react";
 import Navbar from "@/app/components/Navbar/page";
-import background from "../../../public/Services23333.jpg"
+import background from "../../../public/Services23333.jpg"; // Corrected import path
 import Cards_Services from "@/app/components/card-category/page";
 import Footer from "@/app/components/footer/page";
 import { motion } from "framer-motion";
@@ -14,7 +12,7 @@ const Services = () => {
         <div
           className="absolute inset-0 flex flex-col justify-center items-center bg-center bg-cover"
           style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background.src})`
+            backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background})`
           }}
         >
           <div className="max-w-4xl mx-auto mt-20 p-4 sm:p-10">
