@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import services from "../../../public/services_main.jpg";
 import references from "../../../public/References.jpg";
 import emergency_response from "../../../public/Emergency-response.jpg";
@@ -55,10 +56,11 @@ const Cards_Services = () => {
           transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
           className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2"
         >
-          <img
+          <Image
             src={services.src}
             alt="service"
-            className="w-full h-[50vh] md:h-full lg:h-full object-cover"
+            layout="fill"
+            objectFit="cover"
           />
         </motion.div>
         <motion.div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2">

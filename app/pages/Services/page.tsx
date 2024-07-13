@@ -2,7 +2,7 @@
 // components/Services.jsx
 import React from "react";
 import Navbar from "@/app/components/Navbar/page";
-import background from "../../../public/Large-yacht.jpeg";
+import background from "../../../public/Services23333.jpg"
 import Cards_Services from "@/app/components/card-category/page";
 import Footer from "@/app/components/footer/page";
 import { motion } from "framer-motion";

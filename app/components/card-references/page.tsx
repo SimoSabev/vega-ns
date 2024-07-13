@@ -4,6 +4,7 @@ import services from "../../../public/references_main.jpg";
 import references from "../../../public/References.jpg";
 import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
+import Image from "next/image";
 
 const Cards_Services1 = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
@@ -46,10 +47,11 @@ const Cards_Services1 = () => {
         {/* Left Section - Image */}
         <motion.div {...animationPropsLeft}
           transition={{ ...animationPropsLeft.transition, delay: 0.2 }} className="flex justify-center items-center w-full md:w-1/2">
-          <img
+          <Image
             src={services.src}
             alt="service"
-            className="w-full h-[40vh] md:h-[55vh] object-cover"
+            layout="fill"
+            objectFit="cover"
           />
         </motion.div>
         {/* Right Section - Text */}
