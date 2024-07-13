@@ -16,7 +16,7 @@ const References = () => {
             backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background.src})`, // Corrected reference to background
           }}
         >
-          <div className="w-full absolute top-0">
+          <div className="w-full absolute top-0 z-20">
             <Navbar />
           </div>
           <div className="max-w-3xl mx-auto">

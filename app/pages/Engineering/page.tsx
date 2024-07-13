@@ -8,7 +8,7 @@ import Footer from "@/app/components/footer/page";
 const Service2 = () => {
   return (
     <div className="bg-dark min-h-screen">
-      <div className="mb-10">
+      <div className="mb-10 z-20">
         <Navbar />
       </div>
       <motion.div

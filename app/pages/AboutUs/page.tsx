@@ -15,7 +15,7 @@ const About_us = () => {
           }}
         >
           {/* <h1 className=" text-3xl">Services</h1> */}
-          <div className="w-full absolute top-0">
+          <div className="w-full absolute top-0 z-20">
             <Navbar />
           </div>
         </div>
