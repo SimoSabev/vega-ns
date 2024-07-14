@@ -42,7 +42,7 @@ const About_us = () => {
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, x: "70vh" }}
-          whileInView={{ opacity: 1, x: "0vh" }}
+          animate={{ opacity: 1, x: "0vh" }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
           className={`flex flex-col flex-grow justify-center items-center p-4 sm:p-10 ${small.className}`}
         >

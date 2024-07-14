@@ -42,7 +42,7 @@ const Services = () => {
       </div>
       <motion.div
         initial={{ opacity: 0, y: "70vh" }}
-        whileInView={{ opacity: 1, y: "0vh" }}
+        animate={{ opacity: 1, y: "0vh" }}
         transition={{ duration: 0.8, ease: "easeInOut" }}
         className={`max-w-4xl flex flex-col flex-grow justify-center items-center mx-auto mt-20 p-4 sm:p-10 ${small.className}`}
       >

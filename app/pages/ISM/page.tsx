@@ -13,30 +13,18 @@ const Service5 = () => {
       </div>
       <motion.div
         className="bg-center bg-cover mt-3"
+        initial={{ opacity:0 }}
+      animate={{ opacity:1 }}
+      transition={{ duration: 1.2, ease:"easeInOut" }}
         style={{
+          backgroundImage: `linear-gradient(to bottom, rgba(22, 26, 44, 0.8), rgba(50, 58, 88, 0.7), rgba(74, 85, 125, 0.6), rgba(118, 118, 118, 0.5)), url(${services1.src})`,
           height: "55vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          
         }}
-        initial={{ opacity:0 }}
-      animate={{ opacity:1 }}
-      transition={{ duration: 1.2, ease:"easeInOut" }}
-      >
-        <motion.div
-          className="bg-center bg-cover"
-          style={{
-            backgroundImage: `linear-gradient(to bottom, rgba(22, 26, 44, 0.8), rgba(50, 58, 88, 0.7), rgba(74, 85, 125, 0.6), rgba(118, 118, 118, 0.5)), url(${services1.src})`,
-            height: "100%",
-            width: "100%",
-            position: "absolute",
-            zIndex: -1,
-          }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        />
-      </motion.div>
+      ></motion.div>
 
       <div className="py-8 px-4 sm:py-16 sm:px-8 flex flex-col justify-center sm:text-left items-center text-left md:text-justify lg:text-justify xl:text-justify 2xl:text-justify">
         <motion.h1
