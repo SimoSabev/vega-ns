@@ -5,6 +5,7 @@ import Cards_Emergency from "@/app/components/card-emergency/page";
 import Footer from "@/app/components/footer/page";
 import { motion } from "framer-motion";
 import { Noto_Sans, Poppins } from "next/font/google";
+import background from "../../../public/Em_respo.jpg";
 
 const header = Noto_Sans({
   weight: "600",
@@ -20,16 +21,23 @@ const Emergency_Response = () => {
   return (
     <div data-theme="light" className="overflow-x-hidden">
       <div className="relative bg-[#242323] h-[50vh] sm:h-[70vh] lg:h-[70vh] xl:h-[70vh] flex flex-col justify-center items-center">
-        <motion.div
-          initial={{ opacity: 0, y: "-150vh" }}
-          animate={{ opacity: 1, y: "0vh" }}
-          transition={{ duration: 0.8 }}
-          className={`text-slate-200 text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl ${header.className}`}
+        <div
+          className="absolute inset-0 flex flex-col justify-center items-center bg-center bg-cover"
+          style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background.src})`,
+          }}
         >
-          Emergency Response
-        </motion.div>
-        <div className="w-full absolute top-0 z-20">
-          <Navbar />
+          <motion.div
+            initial={{ opacity: 0, y: "-150vh" }}
+            animate={{ opacity: 1, y: "0vh" }}
+            transition={{ duration: 0.8 }}
+            className={`text-slate-200 text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl ${header.className}`}
+          >
+            Emergency Response
+          </motion.div>
+          <div className="w-full absolute top-0 z-20">
+            <Navbar />
+          </div>
         </div>
       </div>
       <motion.div
@@ -42,7 +50,8 @@ const Emergency_Response = () => {
           We are committed to ensuring the safety, security, and environmental
           protection of your Yacht also with our emergency response program and
           services. These services provide crucial support in various emergency
-          scenarios, helping to protect lives, vessels, and the marine environment.
+          scenarios, helping to protect lives, vessels, and the marine
+          environment.
         </p>
         <motion.div
           initial={{ y: "70vh" }}
