@@ -1,4 +1,4 @@
-"use client"
+"use client";
 // components/Cards_Services.jsx
 import React from "react";
 import Link from "next/link";
@@ -54,8 +54,15 @@ const Cards_Services = () => {
       className="flex flex-col justify-center items-center lg:text-justify overflow-x-hidden space-y-8 mt-8"
     >
       {/* Organizational & Operational Support Card */}
-      <motion.div {...animationPropsRight} className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg">
-        <motion.div {...animationPropsLeft} transition={{ ...animationPropsLeft.transition, delay: 0.2 }} className="w-full lg:w-1/2 flex justify-center items-center">
+      <motion.div
+        {...animationPropsRight}
+        className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg"
+      >
+        <motion.div
+          {...animationPropsLeft}
+          transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
+          className="w-full lg:w-1/2 flex justify-center items-center"
+        >
           <Image
             src={photo.src}
             alt="Organizational & Operational Support"
@@ -83,8 +90,15 @@ const Cards_Services = () => {
         </div>
       </motion.div>
 
-      <motion.div {...animationPropsRight} className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg">
-        <motion.div {...animationPropsLeft} transition={{ ...animationPropsLeft.transition, delay: 0.2 }} className="w-full lg:w-1/2 flex justify-center items-center">
+      <motion.div
+        {...animationPropsRight}
+        className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg"
+      >
+        <motion.div
+          {...animationPropsLeft}
+          transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
+          className="w-full lg:w-1/2 flex justify-center items-center"
+        >
           <Image
             src={services.src}
             alt="Technical and Engineering Services"
@@ -96,18 +110,17 @@ const Cards_Services = () => {
         </motion.div>
         <div className="flex flex-col justify-center items-center p-6 w-full lg:w-10/12 bg-slate-200 space-y-4">
           <h1 className="text-2xl lg:text-3xl text-[#242323] font-bold border-b-2 border-[#242323] pb-2 uppercase">
-            Technical & Engineering Services
+            Technical, Engineering and Interior Services
           </h1>
           <p className="text-sm text-[#242323] lg:max-w-xl  lg:text-base">
-            The technical services and expertise are essential for the
-            successful execution of any yacht refit project. Each area requires
-            specialized knowledge and experience to ensure that the refit meets
-            the highest standards of quality, safety, and innovation. Engaging
-            our team with diverse technical capabilities and a track record of
-            successful yacht refit projects can help ensure the project&apos;s
-            success.
+            The technical expertise is essential for the successful execution of
+            any yacht refit project. Each area requires specialized knowledge
+            and experience to ensure that the refit meets the highest standards
+            of quality, safety, and innovation. Engaging our team with diverse
+            technical and interior upgrades can ensure the
+            project&apos;s success.
           </p>
-          <Link href="/pages/Operational">
+          <Link href="/pages/Engineering">
             <button className="btn bg-[#242323] text-slate-200 px-8 rounded-full uppercase hover:bg-[#afafaf]">
               More
             </button>
@@ -115,8 +128,15 @@ const Cards_Services = () => {
         </div>
       </motion.div>
 
-      <motion.div {...animationPropsRight} className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg">
-        <motion.div {...animationPropsLeft} transition={{ ...animationPropsLeft.transition, delay: 0.2 }} className="w-full lg:w-1/2 flex justify-center items-center">
+      <motion.div
+        {...animationPropsRight}
+        className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg"
+      >
+        <motion.div
+          {...animationPropsLeft}
+          transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
+          className="w-full lg:w-1/2 flex justify-center items-center"
+        >
           <Image
             src={references.src}
             alt="Regulatory Compliance & Sustainability Upgrades"
@@ -138,7 +158,7 @@ const Cards_Services = () => {
             requirements to ensure the yacht meets all safety and operational
             standards.
           </p>
-          <Link href="/pages/Operational">
+          <Link href="/pages/Sustainability">
             <button className="btn bg-slate-200 text-[#242323] px-8 rounded-full uppercase hover:bg-[#afafaf]">
               More
             </button>
@@ -146,8 +166,15 @@ const Cards_Services = () => {
         </div>
       </motion.div>
 
-      <motion.div {...animationPropsRight} className="relative my-auto bg-slate-200 w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg">
-        <motion.div {...animationPropsLeft} transition={{ ...animationPropsLeft.transition, delay: 0.2 }} className="w-full lg:w-1/2 flex justify-center items-center">
+      <motion.div
+        {...animationPropsRight}
+        className="relative my-auto bg-slate-200 w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg"
+      >
+        <motion.div
+          {...animationPropsLeft}
+          transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
+          className="w-full lg:w-1/2 flex justify-center items-center"
+        >
           <Image
             src={emergency_response.src}
             alt="Financial & Legal Support"
@@ -167,7 +194,7 @@ const Cards_Services = () => {
             owners and operators. These essential services ensure that the yacht
             is not only legally compliant but also financially optimized.
           </p>
-          <Link href="/pages/Operational">
+          <Link href="/pages/Financial">
             <button className="btn bg-[#242323] text-slate-200 px-8 rounded-full uppercase hover:bg-[#afafaf]">
               More
             </button>
@@ -175,8 +202,15 @@ const Cards_Services = () => {
         </div>
       </motion.div>
 
-      <motion.div {...animationPropsRight} className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg">
-        <motion.div {...animationPropsLeft} transition={{ ...animationPropsLeft.transition, delay: 0.2 }} className="w-full lg:w-1/2 flex justify-center items-center">
+      <motion.div
+        {...animationPropsRight}
+        className="relative my-auto bg-[#242323] w-11/12 md:w-3/4 lg:w-10/12 flex flex-col lg:flex-row rounded-2xl shadow-lg"
+      >
+        <motion.div
+          {...animationPropsLeft}
+          transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
+          className="w-full lg:w-1/2 flex justify-center items-center"
+        >
           <Image
             src={about_us.src}
             alt="ISM Support & Maintenance"
@@ -197,7 +231,7 @@ const Cards_Services = () => {
             vessels to implement a Safety Management System (SMS) and we at VEGA
             assist them with the best implementation practices.
           </p>
-          <Link href="/pages/Operational">
+          <Link href="/pages/ISM">
             <button className="btn bg-slate-200 text-[#242323] px-8 rounded-full uppercase hover:bg-[#afafaf]">
               More
             </button>
