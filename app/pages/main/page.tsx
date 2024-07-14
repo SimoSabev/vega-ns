@@ -40,7 +40,7 @@ const Main = () => {
             initial={{ opacity: 0, y: "-150vh" }}
             animate={{ opacity: 1, y: "0vh" }}
             transition={{ duration: 0.8 }}
-            className={`text-slate-200 text-center text-3xl sm:text-5xl md:text-7xl xl:text-7xl 2xl:text-7xl  ${header.className}`}
+            className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-7xl xl:text-7xl 2xl:text-7xl  ${header.className}`}
           >
             We Are Here To Assist You
           </motion.div>
@@ -48,16 +48,16 @@ const Main = () => {
             initial={{ opacity: 0, y: "150vh" }}
             animate={{ opacity: 1, y: "0vh" }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className={` max-w-4xl text-slate-200 text-center md:text-center text-3xl sm:text-5xl md:text-7xl xl:text-7xl 2xl:text-7xl ${header.className}`}
+            className={` max-w-4xl text-slate-200 text-center md:text-center text-2xl sm:text-5xl md:text-7xl xl:text-7xl 2xl:text-7xl ${header.className}`}
           >
-            With Your Refit Journey.
+            With Your Refit Journey
           </motion.div>
         </div>
       </div>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: "70vh" }}
-          whileInView={{ opacity: 1, y: "0vh" }}
+          animate={{ opacity: 1, y: "0vh" }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
           className="flex flex-col justify-center items-center my-28 text-center text-black text-md md:text-lg lg:text-xl xl:text-xl p-4 sm:p-10"
         >

@@ -34,7 +34,7 @@ const Service2 = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          TECHNICAL & ENGINEERING SERVICES
+           Technical, Engineering & Interior Services
         </motion.h1>
 
         <motion.p
