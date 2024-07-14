@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import services from "../../../public/services_main.jpg"
+import services from "../../../public/services_main.jpg";
 import references from "../../../public/References.jpg";
 import emergency_response from "../../../public/Emergency-response.jpg";
 import about_us from "../../../public/About-us.jpg";
@@ -10,7 +10,6 @@ import { motion } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 
 const Cards_Services = () => {
-  
   const isSmallScreen = useMediaQuery({ maxWidth: 768 });
 
   const animationPropsLeft = isSmallScreen
@@ -56,11 +55,10 @@ const Cards_Services = () => {
           transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
           className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2"
         >
-          <Image
+          <img
             src={services.src}
-            alt="service"
-            layout="fill"
-            objectFit="cover"
+            alt="references"
+            className="w-full h-[50vh] md:h-full lg:h-full object-cover"
           />
         </motion.div>
         <motion.div className="flex flex-col justify-center items-center p-6 md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2">
@@ -74,18 +72,12 @@ const Cards_Services = () => {
             transition={{ ...animationPropsRight.transition, delay: 0.2 }}
             className="text-sm max-w-xl text-[#f1f1f1] pt-6"
           >
-            Our services are specifically tailored to meet the unique needs and
-            desires of each owner, enhancing the vessel’s aesthetics,
-            functionality and value. Our ability to integrate the latest
-            technology and design trends along with the highest level of
-            craftsmanship and attention to details, ensures your yacht is at the
-            forefront of maritime excellence. The adaptability for complete
-            intervention or only partial involvement along with our ability to
-            attend on a short notice allows us to offer more flexibility. As an
-            independent entity, we build full spectrum solutions with selected
-            skilled professionals and trusted industry partners. Our team is
-            committed to deliver your project on time, on budget and according
-            to your expectations.
+            Our serivces are specifically tailored to meet the unique needs and
+            desires of each owner, enchansing the vessel’s aestetics,
+            functionality and vlaue. Our adaptability for complete intervention
+            or only partial involvement along with our ability to integrate the
+            latest technology and attend on a short notice allows us to offer
+            more flexibility.
           </motion.p>
           <Link href="/pages/Services">
             <button className="btn bg-[#f1f1f1] text-[#242323] px-16 py-2 rounded-full mt-8 uppercase hover:bg-[#b6b6b6]">
