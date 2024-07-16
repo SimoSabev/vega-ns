@@ -27,7 +27,7 @@ const Main = () => {
         className="hero flex flex-col justify-center items-center"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(30, 29, 29, 0.8), rgba(26, 25, 25, 0.7), rgba(22, 21, 21, 0.6), rgba(18, 17, 17, 0.5)), url(${background.src})`,
-          height: "100vh",
+          height: "90vh",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -40,7 +40,7 @@ const Main = () => {
             initial={{ opacity: 0, y: "-150vh" }}
             animate={{ opacity: 1, y: "0vh" }}
             transition={{ duration: 0.8 }}
-            className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-7xl xl:text-7xl 2xl:text-7xl  ${header.className}`}
+            className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl  ${header.className}`}
           >
             We Are Here To Assist You
           </motion.div>
@@ -48,7 +48,7 @@ const Main = () => {
             initial={{ opacity: 0, y: "150vh" }}
             animate={{ opacity: 1, y: "0vh" }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className={` max-w-4xl text-slate-200 text-center md:text-center text-2xl sm:text-5xl md:text-7xl xl:text-7xl 2xl:text-7xl ${header.className}`}
+            className={` max-w-4xl text-slate-200 text-center md:text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl ${header.className}`}
           >
             With Your Refit Journey
           </motion.div>
