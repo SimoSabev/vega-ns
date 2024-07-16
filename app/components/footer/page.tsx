@@ -21,8 +21,9 @@ const Footer = () => {
         <div className="hidden md:block border-r border-white h-24"></div>
 
         <motion.div className="flex flex-col justify-center items-center text-center space-y-1 text-white">
-          <a href="mailto:contact@vega-ns.com" className="hover:text-gray-400 text-lg">contact@vega-ns.com</a>
-          <a href="tel:+33672033403" className="hover:text-gray-400 text-lg">+33672033403</a>
+          <a href="mailto:contact@vega-ns.com" className="hover:text-gray-400 text-md">contact@vega-ns.com</a>
+          <a href="tel:+33672033403" className="hover:text-gray-400 text-md">+971506793168</a>
+          <a href="tel:+33672033403" className="hover:text-gray-400 text-md">+33672033403</a>
         </motion.div>
       </div>
       <motion.div className="text-center mt-7 text-white">
