@@ -31,7 +31,7 @@ const Emergency_Response = () => {
             initial={{ opacity: 0, y: "-150vh" }}
             animate={{ opacity: 1, y: "0vh" }}
             transition={{ duration: 0.8 }}
-            className={`text-slate-200 text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl ${header.className}`}
+            className={`text-slate-200 text-center text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl ${header.className}`}
           >
             Emergency Response
           </motion.div>
