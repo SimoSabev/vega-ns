@@ -74,7 +74,7 @@ const Cards_Services = () => {
           >
             Our serivces are specifically tailored to meet the unique needs and
             desires of each owner, enchansing the vessel’s aestetics,
-            functionality and vlaue. Our adaptability for complete intervention
+            functionality and value. Our adaptability for complete intervention
             or only partial involvement along with our ability to integrate the
             latest technology and attend on a short notice allows us to offer
             more flexibility.
