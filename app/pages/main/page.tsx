@@ -39,7 +39,7 @@ const Main = () => {
             initial={{ opacity: 0, y: "-150vh" }}
             animate={{ opacity: 1, y: "0vh" }}
             transition={{ duration: 0.8 }}
-            className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl max-w-2xl ${header.className}`}
+            className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl max-w-2xl mb-44 ${header.className}`}
           >
             <p className="leading-snug">We Offer Our Expertise To Support Every Aspect of Your Refit</p>
           </motion.div>
