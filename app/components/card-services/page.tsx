@@ -48,12 +48,12 @@ const Cards_Services = () => {
       {/* Services Section */}
       <motion.div
         {...animationPropsRight}
-        className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh]"
+        className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row min-h-[55vh] overflow-y-auto md:h-auto lg:h-auto"
       >
         <motion.div
           {...animationPropsLeft}
           transition={{ ...animationPropsLeft.transition, delay: 0.2 }}
-          className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 order-1 md:order-2 lg:order-2"
+          className="flex justify-center items-center w-full md:w-1/2 lg:w-1/2 xl:1/2 order-1 md:order-2 lg:order-2"
         >
           <img
             src={services.src}
@@ -90,7 +90,7 @@ const Cards_Services = () => {
       {/* References Section */}
       <motion.div
         {...animationPropsLeft}
-        className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh]"
+        className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row min-h-[55vh] overflow-y-auto md:h-auto lg:h-auto"
       >
         <motion.div
           {...animationPropsRight}
@@ -131,7 +131,7 @@ const Cards_Services = () => {
       {/* Emergency Response Section */}
       <motion.div
         {...animationPropsRight}
-        className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh]"
+        className="bg-[#242323] w-full flex flex-col md:flex-row lg:flex-row min-h-[55vh] overflow-y-auto md:h-auto lg:h-auto"
       >
         <motion.div
           {...animationPropsLeft}
@@ -172,7 +172,7 @@ const Cards_Services = () => {
       {/* About Us Section */}
       <motion.div
         {...animationPropsLeft}
-        className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row h-auto min-h-[55vh] md:max-h-[55vh] lg:max-h-[55vh] "
+        className="bg-[#f1f1f1] w-full flex flex-col md:flex-row lg:flex-row min-h-[55vh] overflow-y-auto md:h-auto lg:h-auto"
       >
         <motion.div
           {...animationPropsRight}

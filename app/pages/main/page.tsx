@@ -35,24 +35,14 @@ const Main = () => {
         <div className="w-full absolute top-0 z-20">
           <Navbar />
         </div>
-        <div className=" flex flex-col flex-grow justify-center items-center mb-36 gap-10">
           <motion.div
             initial={{ opacity: 0, y: "-150vh" }}
             animate={{ opacity: 1, y: "0vh" }}
             transition={{ duration: 0.8 }}
-            className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl  ${header.className}`}
+            className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl max-w-2xl ${header.className}`}
           >
-            We Are Here To Assist You
+            <p className="leading-snug">We Offer Our Expertise To Support Every Aspect of Your Refit</p>
           </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: "150vh" }}
-            animate={{ opacity: 1, y: "0vh" }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className={` max-w-4xl text-slate-200 text-center md:text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl ${header.className}`}
-          >
-            With Your Refit Journey
-          </motion.div>
-        </div>
       </div>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
