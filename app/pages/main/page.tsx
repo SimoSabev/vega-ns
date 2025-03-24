@@ -41,7 +41,7 @@ const Main = () => {
             transition={{ duration: 0.8 }}
             className={`text-slate-200 text-center text-2xl sm:text-5xl md:text-5xl xl:text-5xl 2xl:text-5xl max-w-2xl mb-44 ${header.className}`}
           >
-            <p className="leading-snug text-red-600">We Offer Our Expertise To Support Every Aspect of Your Refit</p>
+            <p className="leading-snug">We Offer Our Expertise To Support Every Aspect of Your Refit</p>
           </motion.div>
       </div>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
